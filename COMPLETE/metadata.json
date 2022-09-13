@@ -868,11 +868,26 @@
                     "avefFGBIjq1": {
                         "access": "rw------",
                         "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-------",
+                        "id": "bHLDx9I0XkE"
                     }
                 },
                 "users": {}
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Analyse d'impact C19"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Ce tableau de bord est basé sur le cadre d'évaluation d'impact qui a été développé pour définir une méthodologie commune pour surveiller et évaluer l'impact du COVID-19 et des futurs PHE sur la prestation de services antituberculeux à travers différents indicateurs épidémiologiques et de processus. Le cadre est conçu pour renforcer la surveillance de routine de la tuberculose par les PNT et pour faciliter l'identification et la mise en œuvre de stratégies d'atténuation appropriées pour assurer la fonctionnalité continue des services de lutte contre la tuberculose pendant les périodes de perturbations importantes.\n"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -880,6 +895,11 @@
             },
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
                 {
                     "access": "r-------",
                     "id": "Hoe8uDSoNfN",
@@ -1002,7 +1022,18 @@
                 "users": {}
             },
             "shortName": "TB Impact assessment",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Analyse d'impact sur TB"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB - Analyse d'impact C19"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1060,7 +1091,23 @@
                 "color": "#d32f2f",
                 "icon": "virus_negative"
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Cohorte - Nouveaux cas pulmonaires et cas de rechute confirmés bactériologiquement, sauf ceux transférés ou commencés directement sous traitement de 2éme ligne"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et cas de rechute de TBP BC. (cohorte)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1114,7 +1161,27 @@
                 "users": {}
             },
             "shortName": "New and relapse BC-PTB cases - cured",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - guéris"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - guéris"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de TBP confirmés bactériologiquement - guéris"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1168,7 +1235,27 @@
                 "users": {}
             },
             "shortName": "New and relapse BC-PTB cases - died",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - décédés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - décédés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement - décédés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1222,7 +1309,27 @@
                 "users": {}
             },
             "shortName": "New and relapse BC-PTB cases - treatment failed",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - échec du traitement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes TBP - échec"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - échec du traitement"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1276,7 +1383,27 @@
                 "users": {}
             },
             "shortName": "New and relapse BC-PTB cases - LTFU",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - PDV"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de TBP confirmés bactériologiquement - PDV"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - PDV"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1330,7 +1457,27 @@
                 "users": {}
             },
             "shortName": "New and relapse BC-PTB cases - not evaluated",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - non évalués"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechute confirmés bactériologiquement - non évalués"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - non évalués"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1384,7 +1531,27 @@
                 "users": {}
             },
             "shortName": "New and relapse BC-PTB cases - treatment completed",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - traitement terminé"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement - traitement terminé"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas et rechutes de BC-TBP - traitement terminé"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1438,61 +1605,27 @@
                 "users": {}
             },
             "shortName": "Confirmed DS-TB cases started on treatment",
-            "translations": [],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
             },
-            "userAccesses": [],
-            "userGroupAccesses": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": false
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "SUM",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "code": "TB_IMPAX_M03_02",
-            "dataElementGroups": [
+            "translations": [
                 {
-                    "id": "mA27Xo6a6u5"
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas confirmés de DS-TB mis sous traitement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Cas confirmés de DS-TB mis sous traitement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas confirmés de DS-TB mis sous traitement"
                 }
             ],
-            "dataSetElements": [
-                {
-                    "dataElement": {
-                        "id": "pz6NVApUBg4"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                }
-            ],
-            "dimensionItem": "pz6NVApUBg4",
-            "dimensionItemType": "DATA_ELEMENT",
-            "domainType": "AGGREGATE",
-            "externalAccess": false,
-            "favorite": false,
-            "formName": "TB contacts screened",
-            "id": "pz6NVApUBg4",
-            "legendSets": [],
-            "name": "TB-IMPAX - Contacts screened",
-            "optionSetValue": false,
-            "periodOffset": 0,
-            "publicAccess": "rw------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "rw------",
-                "userGroups": {},
-                "users": {}
-            },
-            "shortName": "TB Contacts screened",
-            "translations": [],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1550,7 +1683,23 @@
                 "color": "#d32f2f",
                 "icon": "virus_negative"
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas diagnostiqués et cas de rechute TB"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas diagnostiqués et cas de rechute TB"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas diagnostiqués et cas de rechute TB"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1604,7 +1753,23 @@
                 "users": {}
             },
             "shortName": "Discreet active case finding activities planned",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Activités discrètes de recherche active de cas planifiées/programmées"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Activités discrètes de recherche active de cas planifiées/programmées"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Activités discrètes de recherche active de cas planifiées/programmées"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1658,7 +1823,23 @@
                 "users": {}
             },
             "shortName": "Discreet active TB case finding events conducted",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Événements discrets de recherche active de cas menés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Événements discrets de recherche active de cas TB "
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Événements discrets de recherche active de cas"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1713,7 +1894,28 @@
                 "users": {}
             },
             "shortName": "DS-TB cases that received treatment",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas de TB-DS ayant reçu un traitement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Cas de TB-DS ayant reçu un traitement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec allocation complète du traitement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Cas de TB-DS qui ont commencé un traitement et qui ont reçu une allocation complète de traitement au cours du mois de rapport en cours"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1767,7 +1969,43 @@
                 "users": {}
             },
             "shortName": "Health facilities",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Établissements de santé"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Établissements de santé"
+                },
+                {
+                    "locale": "cs",
+                    "property": "FORM_NAME",
+                    "value": "Health facilities"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Health facilities"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Établissements de santé"
+                },
+                {
+                    "locale": "lo",
+                    "property": "FORM_NAME",
+                    "value": "ສະຖານທີ່ບໍລິການສາທາລະນະສຸກ"
+                },
+                {
+                    "locale": "lo",
+                    "property": "SHORT_NAME",
+                    "value": "ສະຖານທີ່ບໍລິການສາທາລະນະສຸກ"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1821,7 +2059,23 @@
                 "users": {}
             },
             "shortName": "HFs experiencing stock-outs of anti-TB drugs",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Établissements de santé connaissant des ruptures de stock de médicaments antituberculeux"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Établissements de santé connaissant des ruptures de stock de médicaments antituberculeux"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Établissements de santé en rupture de stock de médicaments antituberculeux"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1876,7 +2130,32 @@
                 "users": {}
             },
             "shortName": "TB cases known HIV-status or tested",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas de tuberculose et cas de rechute soit testés pour le VIH au moment du diagnostic de la tuberculose, soit avec un statut VIH connu au moment du diagnostic"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas de tuberculose et cas de rechute testés pour le VIH ou dont le statut VIH était connu au moment du diagnostic"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Nouveaux cas de tuberculose et cas de rechute soit testés pour le VIH au moment du diagnostic de la tuberculose, soit avec un statut VIH connu au moment du diagnostic"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas de tuberculose dont le statut VIH est connu ou testés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1934,7 +2213,23 @@
                 "color": "#d32f2f",
                 "icon": "virus_negative"
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "BC ou CD Cas de EP-TB notifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Cas de TB-EP confirmés bactériologiquement ou diagnostiqués cliniquement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas de TB-EP confirmés bactériologiquement ou diagnostiqués cliniquement"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -1992,7 +2287,23 @@
                 "color": "#d32f2f",
                 "icon": "virus_negative"
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas de TBP et rechutes notifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes notifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas de TBP et rechutes notifiés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2050,7 +2361,23 @@
                 "color": "#d32f2f",
                 "icon": "virus_negative"
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas TB et cas de rechute notifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas TB et cas de rechute notifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Nouveaux cas TB et cas de rechute notifiés (toutes les formes)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2108,7 +2435,23 @@
                 "color": "#d32f2f",
                 "icon": "virus_negative"
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas présumés TB testés par n'importe quel diagnostic de laboratoire"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Cas présumés TB testés par n'importe quel diagnostic de laboratoire"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas présumés TB testés par n'importe quel diagnostic de laboratoire"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2166,7 +2509,23 @@
                 "color": "#d32f2f",
                 "icon": "virus_negative"
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas présumés TB testés positifs par n'importe quel test"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Cas présumés de TB testés positifs par tout diagnostic de laboratoire"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas présumés de TB testés positifs par n'importe quel diagnostic de laboratoire"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2220,7 +2579,23 @@
                 "users": {}
             },
             "shortName": "Stock-outs of anti-TB drugs (days)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Ruptures de stock de médicaments antituberculeux (jours)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Ruptures de stock de médicaments antituberculeux (jours)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Ruptures de stock de médicaments antituberculeux (jours)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2274,7 +2649,23 @@
                 "users": {}
             },
             "shortName": "Stock-outs of laboratory consumables (days)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Ruptures de consommables de laboratoire (jours)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Ruptures de consommables de laboratoire (jours)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Ruptures de consommables de laboratoire (jours)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2328,7 +2719,27 @@
                 "users": {}
             },
             "shortName": "TB cases notified during the reporting period",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Cas TB notifiés au cours de la période de référence"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas TB notifiés au cours de la période de référence"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas TB notifiés au cours de la période de référence"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2383,7 +2794,32 @@
                 "users": {}
             },
             "shortName": "TB cases with DST results for at least Rif",
-            "translations": [],
+            "style": {
+                "color": "#d32f2f",
+                "icon": "virus_negative"
+            },
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Cas de tuberculose avec résultats de TSM pour au moins Rifampicine"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas de tuberculose avec résultats TSM pour au moins Rifampicine"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas de tuberculose avec résultats TSM pour Rif au moins"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Cas de tuberculose avec résultats de TSM pour au moins la rifampicine au cours de la période de notification"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2437,7 +2873,23 @@
                 "users": {}
             },
             "shortName": "TB contacts eligible for TPT",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Contacts TB éligibles au TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts TB éligibles au TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts TB éligibles pour TPT"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2491,7 +2943,93 @@
                 "users": {}
             },
             "shortName": "TB contacts identified",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts TB identifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts TB identifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Contacts TB identifiés"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "TB_IMPAX_M03_02",
+            "dataElementGroups": [
+                {
+                    "id": "mA27Xo6a6u5"
+                }
+            ],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "pz6NVApUBg4"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                }
+            ],
+            "dimensionItem": "pz6NVApUBg4",
+            "dimensionItemType": "DATA_ELEMENT",
+            "domainType": "AGGREGATE",
+            "externalAccess": false,
+            "favorite": false,
+            "formName": "TB contacts screened",
+            "id": "pz6NVApUBg4",
+            "legendSets": [],
+            "name": "TB-IMPAX - TB contacts screened",
+            "optionSetValue": false,
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "TB contacts screened",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Contacts TB dépistés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts TB dépistés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts dépistés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2545,7 +3083,23 @@
                 "users": {}
             },
             "shortName": "TB contacts started on TPT",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "FORM_NAME",
+                    "value": "Les contacts TB ont commencé le TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts commencés sur TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts commencés sur TPT"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2572,79 +3126,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "L72vF5ZCVeZ"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "kKCu65Z5w85"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "wE6X4ibr01C"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "iNzHG5Wx6bs"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "vuD2ARqdMnU"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Qmd4QOGVABD"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "U2DMiGtiRFr"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Wvhkkci7pwA"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "GTUNeHA0SCP"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "IIrUJ1DHV4E"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -2660,23 +3142,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "pz6NVApUBg4"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "WkhqKuICYSi"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "qENFsCZqItQ"
+                        "id": "Wvhkkci7pwA"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -2700,7 +3166,23 @@
                 },
                 {
                     "dataElement": {
+                        "id": "WkhqKuICYSi"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "fxKbAvj3qCL"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "qENFsCZqItQ"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -2716,7 +3198,79 @@
                 },
                 {
                     "dataElement": {
+                        "id": "L72vF5ZCVeZ"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "iNzHG5Wx6bs"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "vuD2ARqdMnU"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "kKCu65Z5w85"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "IIrUJ1DHV4E"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "iMvjIj4zcGs"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "pz6NVApUBg4"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "wE6X4ibr01C"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "U2DMiGtiRFr"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Qmd4QOGVABD"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -2769,7 +3323,7 @@
                         "id": "Hoe8uDSoNfN"
                     },
                     "avefFGBIjq1": {
-                        "access": "rw------",
+                        "access": "rwr-----",
                         "id": "avefFGBIjq1"
                     },
                     "bHLDx9I0XkE": {
@@ -2786,7 +3340,23 @@
             "shortName": "TB - C19 Impact Assessment core",
             "skipOffline": false,
             "timelyDays": 15,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB - Analyse d'impact C19 - Base (mensuel)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "TB - C19 Analyse d'impact base"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Un cadre pour surveiller l'impact du COVID-19 et d'autres urgences mondiales de santé publique sur la prestation de services antituberculeux - informations de base"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -2794,6 +3364,11 @@
             },
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "rwr-----",
+                    "id": "avefFGBIjq1",
+                    "userGroupUid": "avefFGBIjq1"
+                },
                 {
                     "access": "r-rw----",
                     "id": "hT0GsbPl8fg",
@@ -2805,18 +3380,13 @@
                     "userGroupUid": "bHLDx9I0XkE"
                 },
                 {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                },
-                {
                     "access": "r-r-----",
                     "id": "Hoe8uDSoNfN",
                     "userGroupUid": "Hoe8uDSoNfN"
                 }
             ],
             "validCompleteOnly": false,
-            "version": 29
+            "version": 33
         },
         {
             "attributeValues": [],
@@ -2839,7 +3409,23 @@
                 },
                 {
                     "dataElement": {
+                        "id": "n49nDheTwuC"
+                    },
+                    "dataSet": {
+                        "id": "ql3YI4SokB3"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "pxb6xFRlmFp"
+                    },
+                    "dataSet": {
+                        "id": "ql3YI4SokB3"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "PA701RcSNFW"
                     },
                     "dataSet": {
                         "id": "ql3YI4SokB3"
@@ -2855,7 +3441,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "n49nDheTwuC"
+                        "id": "ump3H2vtAHj"
                     },
                     "dataSet": {
                         "id": "ql3YI4SokB3"
@@ -2864,14 +3450,6 @@
                 {
                     "dataElement": {
                         "id": "Z559GShijW5"
-                    },
-                    "dataSet": {
-                        "id": "ql3YI4SokB3"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "ump3H2vtAHj"
                     },
                     "dataSet": {
                         "id": "ql3YI4SokB3"
@@ -2888,14 +3466,6 @@
                 {
                     "dataElement": {
                         "id": "J5sVuSlwQ8t"
-                    },
-                    "dataSet": {
-                        "id": "ql3YI4SokB3"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "PA701RcSNFW"
                     },
                     "dataSet": {
                         "id": "ql3YI4SokB3"
@@ -2920,7 +3490,7 @@
             "openPeriodsAfterCoEndDate": 0,
             "periodOffset": 0,
             "periodType": "Quarterly",
-            "publicAccess": "rw------",
+            "publicAccess": "--------",
             "renderAsTabs": false,
             "renderHorizontally": false,
             "sections": [
@@ -2931,23 +3501,63 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
-                "userGroups": {},
+                "public": "--------",
+                "userGroups": {
+                    "Hoe8uDSoNfN": {
+                        "access": "r-r-----",
+                        "id": "Hoe8uDSoNfN"
+                    },
+                    "avefFGBIjq1": {
+                        "access": "rwr-----",
+                        "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-rw----",
+                        "id": "bHLDx9I0XkE"
+                    }
+                },
                 "users": {}
             },
             "shortName": "TB - C19 Impact Assessment - Optional (quarterly)",
             "skipOffline": false,
             "timelyDays": 15,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB - C19 Analyse d'impact - Optionnel  (trimestriel)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "TB - C19 Analyse d'impact - Optionnel (trimestriel)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
                 "username": "package_admin"
             },
             "userAccesses": [],
-            "userGroupAccesses": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rwr-----",
+                    "id": "avefFGBIjq1",
+                    "userGroupUid": "avefFGBIjq1"
+                },
+                {
+                    "access": "r-rw----",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
+                {
+                    "access": "r-r-----",
+                    "id": "Hoe8uDSoNfN",
+                    "userGroupUid": "Hoe8uDSoNfN"
+                }
+            ],
             "validCompleteOnly": false,
-            "version": 6
+            "version": 7
         }
     ],
     "documents": [],
@@ -2969,10 +3579,10 @@
                     "id": "V8rMo1CO6wu"
                 },
                 {
-                    "id": "eTwRLTwwWBU"
+                    "id": "gDHITVkS40y"
                 },
                 {
-                    "id": "gDHITVkS40y"
+                    "id": "eTwRLTwwWBU"
                 },
                 {
                     "id": "W9WcsOCSaxi"
@@ -2984,9 +3594,6 @@
                     "id": "DsEBDPYrHwH"
                 },
                 {
-                    "id": "zvnc7tww8tL"
-                },
-                {
                     "id": "mgjekomtDZg"
                 },
                 {
@@ -2996,10 +3603,13 @@
                     "id": "g61YQA3w51A"
                 },
                 {
+                    "id": "zvnc7tww8tL"
+                },
+                {
                     "id": "xHEsY8kfnSM"
                 },
                 {
-                    "id": "Z0OxQVvDZ1y"
+                    "id": "SPN6pR6MSIp"
                 },
                 {
                     "id": "tfJZaa2sVd7"
@@ -3020,10 +3630,10 @@
                     "id": "kOWpAxDYNQC"
                 },
                 {
-                    "id": "SPN6pR6MSIp"
+                    "id": "aMwaOD71YXZ"
                 },
                 {
-                    "id": "aMwaOD71YXZ"
+                    "id": "Z0OxQVvDZ1y"
                 }
             ],
             "name": "TB - C19 Impact Assessment (Core)",
@@ -3035,7 +3645,13 @@
                 "userGroups": {},
                 "users": {}
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB - Analyse d'impact C19 (Base)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3079,7 +3695,13 @@
                 "userGroups": {},
                 "users": {}
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB - Analyse d'impact C19 (optionnel)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3200,6 +3822,71 @@
                     "value": "Фоиз"
                 },
                 {
+                    "locale": "ar_SD",
+                    "property": "NAME",
+                    "value": "نسبة"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "NAME",
+                    "value": "نسبة"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Pourcentage"
+                },
+                {
+                    "locale": "es",
+                    "property": "NAME",
+                    "value": "Por 100"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "NAME",
+                    "value": "نسبة"
+                },
+                {
+                    "locale": "id",
+                    "property": "NAME",
+                    "value": "Persentase"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Percentagem"
+                },
+                {
+                    "locale": "cs",
+                    "property": "NAME",
+                    "value": "Procento"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "NAME",
+                    "value": "Por 100"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Процент"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "NAME",
+                    "value": "Percentagem"
+                },
+                {
+                    "locale": "ar",
+                    "property": "NAME",
+                    "value": "نسبة"
+                },
+                {
+                    "locale": "nb",
+                    "property": "NAME",
+                    "value": "Prosentdel"
+                },
+                {
                     "locale": "uz_UZ",
                     "property": "NAME",
                     "value": "Foiz"
@@ -3246,7 +3933,33 @@
                 "users": {}
             },
             "shortName": "HIV-awareness among newly confirmed TB cases",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Connaissance du statut VIH parmi les cas de TB nouvellement confirmés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas diagnostiqués et cas de rechute TB"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de patients TB nouveaux et en rechute qui ont été testés pour le VIH au moment du diagnostic de la tuberculose ou dont le statut VIH était connu au moment du diagnostic"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de tuberculose et cas de rechute soit testés pour le VIH au moment du diagnostic de la tuberculose, soit avec un statut VIH connu au moment du diagnostic"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Connaissance du statut VIH parmi les cas de TB nouvellement confirmés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3291,7 +4004,33 @@
                 "users": {}
             },
             "shortName": "Active case finding activities (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Conduite des activités prévues de recherche active des cas (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Activités discrètes de recherche active de cas planifiées/programmées"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Événements de recherche actives de cas (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion d'activités de recherche active de cas planifiées qui sont menées"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Événements discrets de recherche active de cas"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3325,7 +4064,7 @@
             "legendSets": [],
             "name": "TB-IMPAX - Contact screening coverage (%)",
             "numerator": "#{pz6NVApUBg4}",
-            "numeratorDescription": "TB-IMPAX - Contacts screened",
+            "numeratorDescription": "TB-IMPAX - TB contacts screened",
             "periodOffset": 0,
             "publicAccess": "rw------",
             "sharing": {
@@ -3336,97 +4075,33 @@
                 "users": {}
             },
             "shortName": "Contact screening coverage (%)",
-            "translations": [],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "annualized": false,
-            "attributeValues": [],
-            "code": "TB_IMPAX_CONTACTS_ELEGIBLE_TPT",
-            "dataSets": [],
-            "decimals": 0,
-            "denominator": "1",
-            "denominatorDescription": "1",
-            "description": "Identified household contacts who are eligible for TB preventive therapy (TPT)",
-            "dimensionItem": "SPN6pR6MSIp",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "SPN6pR6MSIp",
-            "indicatorGroups": [
+            "translations": [
                 {
-                    "id": "rT9B4pVufTB"
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Contacts TB identifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Couverture du dépistage des contacts (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Contacts dépistés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de personnes identifiées comme contacts familiaux d'un cas confirmé de tuberculose (selon les définitions du programme local) qui sont dépistées pour la tuberculose"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Couverture du dépistage des contacts (%)"
                 }
             ],
-            "indicatorType": {
-                "id": "kHy61PbChXr"
-            },
-            "legendSets": [],
-            "name": "TB-IMPAX - Contacts eligible for TPT",
-            "numerator": "#{Wvhkkci7pwA}",
-            "numeratorDescription": "TB-IMPAX - TB contacts eligible for TPT",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "rw------",
-                "userGroups": {},
-                "users": {}
-            },
-            "shortName": "Contacts eligible for TPT",
-            "translations": [],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "annualized": false,
-            "attributeValues": [],
-            "code": "TB_IMPAX_CONTACTS_IDENTIFIED",
-            "dataSets": [],
-            "decimals": 0,
-            "denominator": "1",
-            "denominatorDescription": "1",
-            "description": "TPT-eligible household contacts of a confirmed TB case",
-            "dimensionItem": "gDHITVkS40y",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "gDHITVkS40y",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
-            "indicatorType": {
-                "id": "kHy61PbChXr"
-            },
-            "legendSets": [],
-            "name": "TB-IMPAX - Contacts identified",
-            "numerator": "#{iMvjIj4zcGs}",
-            "numeratorDescription": "TB-IMPAX - TB contacts identified",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "rw------",
-                "userGroups": {},
-                "users": {}
-            },
-            "shortName": "Contacts identified",
-            "translations": [],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3471,52 +4146,103 @@
                 "users": {}
             },
             "shortName": "Contacts screened",
-            "translations": [],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
-        },
-        {
-            "annualized": false,
-            "attributeValues": [],
-            "code": "TB_IMPAX_CONTACTS_TPT_STARTED",
-            "dataSets": [],
-            "decimals": 0,
-            "denominator": "1",
-            "denominatorDescription": "1",
-            "description": "Identified, household contacts who are commenced on TB preventive therapy (TPT)",
-            "dimensionItem": "W9WcsOCSaxi",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
-            "id": "W9WcsOCSaxi",
-            "indicatorGroups": [
+            "translations": [
                 {
-                    "id": "rT9B4pVufTB"
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Prověřené kontakty"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Contacts dépistés"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Contacts familiaux éligibles au TPT d'un cas confirmé de TB qui sont dépistés"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Contactos examinados"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts dépistés"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "SHORT_NAME",
+                    "value": "Contactos examinados"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts dépistés"
                 }
             ],
-            "indicatorType": {
-                "id": "kHy61PbChXr"
-            },
-            "legendSets": [],
-            "name": "TB-IMPAX - Contacts started on TPT",
-            "numerator": "#{fxKbAvj3qCL}",
-            "numeratorDescription": "TB-IMPAX - TB contacts started on TPT",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
-            "sharing": {
-                "external": false,
-                "owner": "vUeLeQMSwhN",
-                "public": "rw------",
-                "userGroups": {},
-                "users": {}
-            },
-            "shortName": "Contacts started on TPT",
-            "translations": [],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3561,7 +4287,33 @@
                 "users": {}
             },
             "shortName": "TB-IMPAX - DST coverage for TB cases (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de cas de tuberculose avec des résultats de TSM pour au moins une résistance à la rifampicine"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Couverture des tests de sensibilité aux médicaments (TSM) pour les cas de tuberculose (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas TB avec résultats TSM pour au moins Rifampicine"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "TB-IMPAX - Couverture TSM pour les cas TB (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas TB notifié au cours de la période de notification"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3577,7 +4329,7 @@
             "dataSets": [],
             "denominator": "1",
             "denominatorDescription": "1",
-            "description": "Patients with DS-TB started on treatment in the reporting month",
+            "description": "Patients with DS-TB started on treatment during the reporting period",
             "dimensionItem": "zvnc7tww8tL",
             "dimensionItemType": "INDICATOR",
             "externalAccess": false,
@@ -3592,7 +4344,7 @@
                 "id": "kHy61PbChXr"
             },
             "legendSets": [],
-            "name": "TB-IMPAX - DS-TB cases started on treatment in the reporting month",
+            "name": "TB-IMPAX - DS-TB cases started on treatment during the reporting period",
             "numerator": "#{WkhqKuICYSi}",
             "numeratorDescription": "TB-IMPAX - Confirmed DS-TB cases started on treatment",
             "periodOffset": 0,
@@ -3605,7 +4357,88 @@
                 "users": {}
             },
             "shortName": "DS-TB cases started on TX",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas confirmés de DS-TB mis sous traitement"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Les cas de DS-TB ont commencé le TX"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Les patients  DS-TB ont commencé le traitement au cours du mois de déclaration"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement au cours du mois de déclaration"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3617,12 +4450,12 @@
         {
             "annualized": false,
             "attributeValues": [],
-            "code": "TB_IMPAX_DSTB_TX_STARTED_RECEIVED_CURRENT_MONTH",
+            "code": "TB_IMPAX_DSTB_TX_STARTED_RECEIVED_CURRENT_PERIOD",
             "dataSets": [],
             "decimals": 0,
             "denominator": "1",
             "denominatorDescription": "1",
-            "description": "DS-TB patients currently started on treatment who received full allocation of treatment in the reporting month",
+            "description": "DS-TB patients currently started on treatment who received full allocation of treatment during the reporting period",
             "dimensionItem": "Z0OxQVvDZ1y",
             "dimensionItemType": "INDICATOR",
             "externalAccess": false,
@@ -3637,7 +4470,7 @@
                 "id": "kHy61PbChXr"
             },
             "legendSets": [],
-            "name": "TB-IMPAX - DS-TB cases started on treatment with full treatment allocation in the reporting month",
+            "name": "TB-IMPAX - DS-TB cases started on treatment with full treatment allocation during the reporting period",
             "numerator": "#{kKCu65Z5w85}",
             "numeratorDescription": "TB-IMPAX - DS-TB cases started on treatment with full allocation of treatment",
             "periodOffset": 0,
@@ -3650,7 +4483,88 @@
                 "users": {}
             },
             "shortName": "DS-TB cases - TX started and received",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec allocation complète du traitement"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas de DS-TB – TX commencée et reçue"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Patients atteints de TB-DS actuellement sous traitement qui ont reçu la totalité du traitement au cours du mois de référence"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec allocation complète du traitement au cours du mois de déclaration"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3695,7 +4609,33 @@
                 "users": {}
             },
             "shortName": "Health facilities experiencing stock-outs %",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion d'établissements connaissant une rupture de stock de médicaments (ou kits de médicaments) de 1ére ou 2éme lignes requis par mois"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Établissements de santé connaissant des ruptures de stock de médicaments antituberculeux (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Établissements de santé connaissant des ruptures de stock %"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Établissements de santé en rupture de stock de médicaments antituberculeux"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Établissements de santé"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3729,7 +4669,7 @@
             "legendSets": [],
             "name": "TB-IMPAX - New and relapse DS-TB cases - cured (%)",
             "numerator": "#{vuD2ARqdMnU}",
-            "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed PTB cases (new and relapse) - cured",
+            "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - cured",
             "periodOffset": 0,
             "publicAccess": "rw------",
             "sharing": {
@@ -3740,7 +4680,33 @@
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - cured (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas de TBP confirmés bactériologiquement (nouveaux et rechutes) - guéris"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de patients tuberculeux pulmonaires nouveaux et en rechute confirmés bactériologiquement qui ont été guéris"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de TB-DS - guéris (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de DS-TB - guéris (%)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3774,7 +4740,7 @@
             "legendSets": [],
             "name": "TB-IMPAX - New and relapse DS-TB cases - died (%)",
             "numerator": "#{NOVaNLhH5E1}",
-            "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed PTB cases (new and relapse) - died",
+            "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - died",
             "periodOffset": 0,
             "publicAccess": "rw------",
             "sharing": {
@@ -3785,7 +4751,33 @@
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - died (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de DS-TB - décès (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de patients tuberculeux pulmonaires nouveaux et en rechute confirmés bactériologiquement qui sont décédés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de TB-DS - décès (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas de TBP confirmés bactériologiquement (nouveaux et rechutes) - décédés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3830,7 +4822,33 @@
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - failed (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de DS-TB - échec (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes TBP - échec"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de TB-DS - échec (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de patients TB pulmonaires nouveaux et en rechute confirmés bactériologiquement dont le traitement a échoué"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3875,7 +4893,33 @@
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - LTFU (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de TB-DS - PDV (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de DS-TB - perdus de vue (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de patients tuberculeux pulmonaires nouveaux et en rechute confirmés bactériologiquement qui ont été perdus de vue"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de TP confirmés bactériologiquement - PDV"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3920,7 +4964,33 @@
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - not evaluated (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de TB-DS - non évalués (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechute confirmés bactériologiquement - non évalués"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de patients TBP nouveaux et en rechute confirmés bactériologiquement qui n'ont pas été évalués"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de TB-DS - non évalués (%)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -3965,7 +5035,33 @@
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - tx completed (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement - traitement terminé"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de patients TB pulmonaires nouveaux et en rechute confirmés bactériologiquement qui ont terminé leur traitement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de DS-TB - traitement terminé (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et rechutes de TB-DS - tx terminés (%)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4010,7 +5106,88 @@
                 "users": {}
             },
             "shortName": "Newly diagnosed extra-pulmonary TB cases",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Cas de TB extra-pulmonaire nouvellement diagnostiqués, confirmés bactériologiquement ou diagnostiqués cliniquement"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas de TB-EP confirmés bactériologiquement ou diagnostiqués cliniquement"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas de TB extra-pulmonaire nouvellement diagnostiqués"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas de TB extra-pulmonaire nouvellement diagnostiqués"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4055,7 +5232,88 @@
                 "users": {}
             },
             "shortName": "Notified new and relapse PTB cases",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Nouveaux épisodes de TB pulmonaire (nouveaux cas et cas de rechute) notifiés mensuellement"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes notifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas et cas de rechute de TBP notifiés"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas et cas de rechute de TBP notifiés"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4100,7 +5358,88 @@
                 "users": {}
             },
             "shortName": "Notified new and relapse TB cases (all forms)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas TB et cas de rechute notifiés"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Nouveaux cas TB et cas de rechute notifiés (toutes les formes)"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Nouveaux épisodes TB (nouveaux cas et cas de rechute) notifiés mensuellement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Nouveaux cas TB et cas de rechute notifiés (toutes les formes)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4145,7 +5484,103 @@
                 "users": {}
             },
             "shortName": "Presumptive TB cases tested",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "SHORT_NAME",
+                    "value": "Casos presumíveis de TB testados"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Personnes identifiées comme cas présumés qui sont testées pour la TB avec tout type de diagnostic de laboratoire à 1 ligne"
+                },
+                {
+                    "locale": "pt",
+                    "property": "SHORT_NAME",
+                    "value": "Casos presumíveis de TB testados"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "id",
+                    "property": "SHORT_NAME",
+                    "value": "Terduga TB yang dites"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas présumés TB testés par n'importe quel diagnostic de laboratoire"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas présumés TB testés par n'importe quel diagnostic de laboratoire à 1 ligne"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Présumés de TB testés bact"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4189,7 +5624,88 @@
                 "users": {}
             },
             "shortName": "Presumptive TB cases with positive lab test result",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Personnes identifiées comme cas présumés qui sont testées pour la tuberculose avec tout type de diagnostic de laboratoire de première ligne et reçoivent un résultat de test positif"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas présumés de TB testés positifs par n'importe quel diagnostic de laboratoire"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas présumés TB avec résultat positif au test de laboratoire"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas présumés TB avec résultat de test de laboratoire positif"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4234,7 +5750,456 @@
                 "users": {}
             },
             "shortName": "Presumptive TB cases tested positive %",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Cas présumés TB testés positifs %"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas présumés TB testés par n'importe quel diagnostic de laboratoire"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas présumés de tuberculose avec résultat positif au test de laboratoire (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Cas présumés de TB testés positifs par n'importe quel diagnostic de laboratoire"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de personnes atteintes de tuberculose présumée qui sont confirmées par un test de diagnostic de 1ère ligne"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "annualized": false,
+            "attributeValues": [],
+            "code": "TB_IMPAX_CONTACTS_ELEGIBLE_TPT",
+            "dataSets": [],
+            "decimals": 0,
+            "denominator": "1",
+            "denominatorDescription": "1",
+            "description": "Identified household contacts who are eligible for TB preventive therapy (TPT)",
+            "dimensionItem": "SPN6pR6MSIp",
+            "dimensionItemType": "INDICATOR",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "SPN6pR6MSIp",
+            "indicatorGroups": [
+                {
+                    "id": "rT9B4pVufTB"
+                }
+            ],
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "legendSets": [],
+            "name": "TB-IMPAX - TB contacts eligible for TPT",
+            "numerator": "#{Wvhkkci7pwA}",
+            "numeratorDescription": "TB-IMPAX - TB contacts eligible for TPT",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "TB contacts eligible for TPT",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Contacts TB éligibles pour TPT"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts éligibles pour TPT"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Contactos elegibles para TPT"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "SHORT_NAME",
+                    "value": "Contactos elegibles para TPT"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Kontakty způsobilé pro TPT"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Contacts domestiques identifiés éligibles au traitement préventif de la tuberculose (TPT)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts éligibles pour TPT"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "annualized": false,
+            "attributeValues": [],
+            "code": "TB_IMPAX_CONTACTS_IDENTIFIED",
+            "dataSets": [],
+            "decimals": 0,
+            "denominator": "1",
+            "denominatorDescription": "1",
+            "description": "TPT-eligible household contacts of a confirmed TB case",
+            "dimensionItem": "gDHITVkS40y",
+            "dimensionItemType": "INDICATOR",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "gDHITVkS40y",
+            "indicatorGroups": [
+                {
+                    "id": "rT9B4pVufTB"
+                }
+            ],
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "legendSets": [],
+            "name": "TB-IMPAX - TB contacts identified",
+            "numerator": "#{iMvjIj4zcGs}",
+            "numeratorDescription": "TB-IMPAX - TB contacts identified",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "TB contacts identified",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts identifiés"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Identifikované kontakty"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Contactos identificados"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Contacts domestiques éligibles au TPT d'un cas confirmé de TB"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts identifiés"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "SHORT_NAME",
+                    "value": "Contactos identificados"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Contacts TB identifiés"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                }
+            ],
+            "user": {
+                "id": "vUeLeQMSwhN",
+                "name": "package admin",
+                "username": "package_admin"
+            },
+            "userAccesses": [],
+            "userGroupAccesses": []
+        },
+        {
+            "annualized": false,
+            "attributeValues": [],
+            "code": "TB_IMPAX_CONTACTS_TPT_STARTED",
+            "dataSets": [],
+            "decimals": 0,
+            "denominator": "1",
+            "denominatorDescription": "1",
+            "description": "Identified, household contacts who are commenced on TB preventive therapy (TPT)",
+            "dimensionItem": "W9WcsOCSaxi",
+            "dimensionItemType": "INDICATOR",
+            "externalAccess": false,
+            "favorite": false,
+            "id": "W9WcsOCSaxi",
+            "indicatorGroups": [
+                {
+                    "id": "rT9B4pVufTB"
+                }
+            ],
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "legendSets": [],
+            "name": "TB-IMPAX - TB contacts started on TPT",
+            "numerator": "#{fxKbAvj3qCL}",
+            "numeratorDescription": "TB-IMPAX - TB contacts started on TPT",
+            "periodOffset": 0,
+            "publicAccess": "rw------",
+            "sharing": {
+                "external": false,
+                "owner": "vUeLeQMSwhN",
+                "public": "rw------",
+                "userGroups": {},
+                "users": {}
+            },
+            "shortName": "TB contacts started on TPT",
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Contacts TB commencés sur TPT"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts commencés sur TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Contacts domestiques identifiés qui ont commencé un traitement préventif de la tuberculose (TPT)"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "SHORT_NAME",
+                    "value": "Contactos iniciados en TPT"
+                },
+                {
+                    "locale": "cs",
+                    "property": "SHORT_NAME",
+                    "value": "Kontakty zahájeny na TPT"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts commencés sur TPT"
+                },
+                {
+                    "locale": "es",
+                    "property": "SHORT_NAME",
+                    "value": "Contactos iniciados en TPT"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4279,7 +6244,88 @@
                 "users": {}
             },
             "shortName": "Anti-TB drugs stock-out time",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Nombre de jours passés en rupture de stock de tous les médicaments (ou kits de médicaments) de 1ére ou 2éme lignes requis par mois"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Ruptures de stock de médicaments antituberculeux (jours)"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Temps passé à connaître des ruptures de stock de médicaments antituberculeux"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Temps de rupture de stock des médicaments antituberculeux"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4324,7 +6370,88 @@
                 "users": {}
             },
             "shortName": "Laboratory consumables stock-out time",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Jours passés en rupture de stock de tout consommable/stock de laboratoire par mois"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Ruptures de consommables de laboratoire (jours)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Temps de rupture de stock des consommables de laboratoire"
+                },
+                {
+                    "locale": "es_US",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "es",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_SD",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "cs",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_IQ",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ru",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "ar_EG",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Temps passé  en ruptures de stock de consommables de laboratoire"
+                },
+                {
+                    "locale": "nb",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4369,7 +6496,33 @@
                 "users": {}
             },
             "shortName": "TPT coverage (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Contacts TB éligibles pour TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Contacts TB commencés sur TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Couverture TPT (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Couverture TPT (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de contacts domestiques éligibles au TPT qui commencent le TPT"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4414,7 +6567,33 @@
                 "users": {}
             },
             "shortName": "Tx success rate for new and relapse DS-TB (%)",
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Proportion de patients TB pulmonaires nouveaux et en rechute confirmés bactériologiquement qui ont été traités avec succès (guérison ou traitement terminé)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement - guéris/traitement terminé"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Taux de réussite du traitement pour les nouveaux cas et les cas de rechute de DS-TB (%)"
+                },
+                {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Taux de réussite du traitement pour les nouveaux cas et les rechutes de DS-TB (%)"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -4436,8 +6615,8 @@
         "DHIS2Build": "b6d3754",
         "DHIS2Version": "2.36.12",
         "code": "TB_IMPAX",
-        "description": "TB Covid-19 Impact Assessment",
-        "lastUpdated": "20220901T142617",
+        "description": "TB - COVID-19 Impact Assessment",
+        "lastUpdated": "20220912T092701",
         "locale": "en",
         "name": "TB_IMPAX_AGG_DHIS2.36.12-en",
         "type": "AGG",
@@ -4472,7 +6651,7 @@
             "greyedFields": [],
             "id": "D7TkWNqUdlv",
             "indicators": [],
-            "name": "Case testing",
+            "name": "Case Testing",
             "sharing": {
                 "external": false,
                 "userGroups": {},
@@ -4481,7 +6660,13 @@
             "showColumnTotals": false,
             "showRowTotals": false,
             "sortOrder": 2,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Test de cas"
+                }
+            ],
             "userAccesses": [],
             "userGroupAccesses": []
         },
@@ -4516,7 +6701,7 @@
             "greyedFields": [],
             "id": "HVf2BtB0xKa",
             "indicators": [],
-            "name": "Household contacts screening",
+            "name": "Household Contacts Screening",
             "sharing": {
                 "external": false,
                 "userGroups": {},
@@ -4525,7 +6710,13 @@
             "showColumnTotals": false,
             "showRowTotals": false,
             "sortOrder": 3,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Dépistage des contacts domestiques"
+                }
+            ],
             "userAccesses": [],
             "userGroupAccesses": []
         },
@@ -4575,7 +6766,7 @@
             "greyedFields": [],
             "id": "GNVw4F10I0T",
             "indicators": [],
-            "name": "Optional data elements",
+            "name": "Optional Data Elements",
             "sharing": {
                 "external": false,
                 "userGroups": {},
@@ -4584,7 +6775,13 @@
             "showColumnTotals": false,
             "showRowTotals": false,
             "sortOrder": 1,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Éléments de données optionnels"
+                }
+            ],
             "userAccesses": [],
             "userGroupAccesses": []
         },
@@ -4619,7 +6816,7 @@
             "greyedFields": [],
             "id": "lwS0x1UQiXS",
             "indicators": [],
-            "name": "TB cases",
+            "name": "TB Cases",
             "sharing": {
                 "external": false,
                 "userGroups": {},
@@ -4628,7 +6825,33 @@
             "showColumnTotals": false,
             "showRowTotals": false,
             "sortOrder": 1,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Cas TB"
+                },
+                {
+                    "locale": "uz",
+                    "property": "NAME",
+                    "value": "ТБ ҳолатлар"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "NAME",
+                    "value": "Casos de tuberculose"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "NAME",
+                    "value": "TB holatlar"
+                },
+                {
+                    "locale": "pt",
+                    "property": "NAME",
+                    "value": "Casos de tuberculose"
+                }
+            ],
             "userAccesses": [],
             "userGroupAccesses": []
         },
@@ -4678,7 +6901,7 @@
             "greyedFields": [],
             "id": "QQcXeVxtiBw",
             "indicators": [],
-            "name": "TB treatment and outcomes",
+            "name": "TB Treatment and Outcomes",
             "sharing": {
                 "external": false,
                 "userGroups": {},
@@ -4687,7 +6910,13 @@
             "showColumnTotals": false,
             "showRowTotals": false,
             "sortOrder": 4,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Traitement TB et résultats"
+                }
+            ],
             "userAccesses": [],
             "userGroupAccesses": []
         }
@@ -4910,14 +7139,14 @@
             },
             "translations": [
                 {
-                    "locale": "ru",
-                    "property": "NAME",
-                    "value": "Ведение записей данных ТБ"
-                },
-                {
                     "locale": "uz_UZ",
                     "property": "NAME",
                     "value": "Sil kasalligi boʼyicha maʼlumotlarni olish"
+                },
+                {
+                    "locale": "ru",
+                    "property": "NAME",
+                    "value": "Ведение записей данных ТБ"
                 },
                 {
                     "locale": "pt_BR",
@@ -4932,7 +7161,7 @@
                 {
                     "locale": "fr",
                     "property": "NAME",
-                    "value": "Saisie des données TB"
+                    "value": "TB Saisie des données "
                 },
                 {
                     "locale": "es",
@@ -4992,7 +7221,13 @@
                 "userGroups": {},
                 "users": {}
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB Saisie des données stocks"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5019,7 +7254,13 @@
                 "userGroups": {},
                 "users": {}
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "Rôle d'utilisateur du package"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5112,7 +7353,13 @@
                 "userGroups": {},
                 "users": {}
             },
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "CT-C19 Analyse d'impact"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5190,7 +7437,18 @@
                 "users": {}
             },
             "skipFormValidation": false,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas inscrits dans tx >= cas inscrits dans tx avec allocation de tx"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Le nombre de cas inscrits au traitement doit être supérieur ou égal au nombre de cas inscrits au traitement et recevant une allocation complète de tx"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5245,7 +7503,18 @@
                 "users": {}
             },
             "skipFormValidation": false,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Le nombre de nouveaux cas de tuberculose et de cas de rechute détectés doit être supérieur ou égal au nombre de cas notifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas >= Cas notifiés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5300,7 +7569,18 @@
                 "users": {}
             },
             "skipFormValidation": false,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Le nombre de contacts domestiques identifiés doit être supérieur ou égal au nombre de contacts domestiques dépistés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - contacts domestiques identifiés >= contacts dépistés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5354,7 +7634,18 @@
                 "users": {}
             },
             "skipFormValidation": false,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - contacts domestiques dépistés >= contacts éligibles pour TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Le nombre de contacts domestiques examinés doit être supérieur ou égal au nombre de contacts éligibles pour démarrer le TPT"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5409,7 +7700,18 @@
                 "users": {}
             },
             "skipFormValidation": false,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Le nombre de contacts domestiques éligibles pour TPT après le dépistage doit être supérieur ou égal au nombre de contacts commencés sur TPT"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - contacts domestiques éligibles >= contacts démarrés sur TPT"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5464,7 +7766,18 @@
                 "users": {}
             },
             "skipFormValidation": false,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Le nombre de cas présumés testés par tout diagnostic de 1ére ligne doit être supérieur ou égal au nombre de cas présumés recevant un résultat positif"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas présumés testés >= cas présumés avec des résultats positifs"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5519,7 +7832,18 @@
                 "users": {}
             },
             "skipFormValidation": false,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Notifications TBP =< tous les cas de tuberculose notifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Le nombre de cas notifiés avec TBP doit être inférieur ou égal au nombre total de cas de tuberculose notifiés"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5574,7 +7898,18 @@
                 "users": {}
             },
             "skipFormValidation": false,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - la somme des résultats =< le nombre de cas inscrits au tx"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "La somme des résultats doit être inférieure ou égale au nombre de cas inscrits au tx"
+                }
+            ],
             "user": {
                 "id": "vUeLeQMSwhN",
                 "name": "package admin",
@@ -5730,6 +8065,10 @@
                     "avefFGBIjq1": {
                         "access": "rw------",
                         "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-------",
+                        "id": "bHLDx9I0XkE"
                     }
                 },
                 "users": {}
@@ -5743,7 +8082,23 @@
             "subscribers": [],
             "title": "Notified new and relapse TB cases",
             "topLimit": 0,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX-001"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Le nombre mensuel de nouveaux épisodes de tuberculose, toutes formes confondues, comprend les nouveaux cas, les rechutes et les cas dont les antécédents de traitement sont inconnus. Cet indicateur servirait d'indicateur principal pour suggérer une interruption de traitement."
+                },
+                {
+                    "locale": "fr",
+                    "property": "title",
+                    "value": "Nouveaux cas TB et cas de rechute notifiés"
+                }
+            ],
             "type": "COLUMN",
             "user": {
                 "id": "vUeLeQMSwhN",
@@ -5752,6 +8107,11 @@
             },
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
                 {
                     "access": "r-------",
                     "id": "Hoe8uDSoNfN",
@@ -5914,6 +8274,10 @@
                     "avefFGBIjq1": {
                         "access": "rw------",
                         "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-------",
+                        "id": "bHLDx9I0XkE"
                     }
                 },
                 "users": {}
@@ -5927,7 +8291,23 @@
             "subscribers": [],
             "title": "Bacteriological confirmation coverage",
             "topLimit": 0,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "title",
+                    "value": "Couverture de la confirmation bactériologique"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Montrer la proportion de tests bactériologiques parmi les nouveaux épisodes de cas de TBP (nouveaux et rechutes) par mois"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX-002"
+                }
+            ],
             "type": "COLUMN",
             "user": {
                 "id": "vUeLeQMSwhN",
@@ -5936,6 +8316,11 @@
             },
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
                 {
                     "access": "r-------",
                     "id": "Hoe8uDSoNfN",
@@ -6113,6 +8498,10 @@
                     "avefFGBIjq1": {
                         "access": "rw------",
                         "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-------",
+                        "id": "bHLDx9I0XkE"
                     }
                 },
                 "users": {}
@@ -6126,7 +8515,23 @@
             "subscribers": [],
             "title": "Laboratory positivity rate",
             "topLimit": 0,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX-003"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Montrer la proportion de cas bactériologiquement positifs par mois"
+                },
+                {
+                    "locale": "fr",
+                    "property": "title",
+                    "value": "Taux de positivité en laboratoire"
+                }
+            ],
             "type": "COLUMN",
             "user": {
                 "id": "vUeLeQMSwhN",
@@ -6135,6 +8540,11 @@
             },
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
                 {
                     "access": "r-------",
                     "id": "Hoe8uDSoNfN",
@@ -6311,6 +8721,10 @@
                     "avefFGBIjq1": {
                         "access": "rw------",
                         "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-------",
+                        "id": "bHLDx9I0XkE"
                     }
                 },
                 "users": {}
@@ -6324,10 +8738,31 @@
             "subscribers": [],
             "title": "Contact tracing activities",
             "topLimit": 0,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "title",
+                    "value": "Activités de recherche des contacts"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX-004"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Montrer la couverture du dépistage de la tuberculose parmi les contacts identifiés des cas confirmés de tuberculose sur une base mensuelle"
+                }
+            ],
             "type": "COLUMN",
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
                 {
                     "access": "r-------",
                     "id": "Hoe8uDSoNfN",
@@ -6504,6 +8939,10 @@
                     "avefFGBIjq1": {
                         "access": "rw------",
                         "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-------",
+                        "id": "bHLDx9I0XkE"
                     }
                 },
                 "users": {}
@@ -6517,10 +8956,31 @@
             "subscribers": [],
             "title": "Preventive therapy coverage",
             "topLimit": 0,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX-005"
+                },
+                {
+                    "locale": "fr",
+                    "property": "title",
+                    "value": "Couverture du traitement préventif"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Montrer la couverture du dépistage de la tuberculose parmi les contacts identifiés des cas confirmés de tuberculose sur une base mensuelle"
+                }
+            ],
             "type": "COLUMN",
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
                 {
                     "access": "r-------",
                     "id": "Hoe8uDSoNfN",
@@ -6691,6 +9151,10 @@
                     "avefFGBIjq1": {
                         "access": "rw------",
                         "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-------",
+                        "id": "bHLDx9I0XkE"
                     }
                 },
                 "users": {}
@@ -6704,10 +9168,31 @@
             "subscribers": [],
             "title": "TB treatment adherence rate",
             "topLimit": 0,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX-006"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Montrer la proportion de patients tuberculeux actuellement inscrits au traitement qui ont reçu la totalité de leur traitement mensuel. Cet indicateur est conçu pour signaler les problèmes d'approvisionnement ou d'accès au traitement"
+                },
+                {
+                    "locale": "fr",
+                    "property": "title",
+                    "value": "Taux d'observance du traitement antituberculeux"
+                }
+            ],
             "type": "COLUMN",
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
                 {
                     "access": "r-------",
                     "id": "Hoe8uDSoNfN",
@@ -6908,6 +9393,10 @@
                     "avefFGBIjq1": {
                         "access": "rw------",
                         "id": "avefFGBIjq1"
+                    },
+                    "bHLDx9I0XkE": {
+                        "access": "r-------",
+                        "id": "bHLDx9I0XkE"
                     }
                 },
                 "users": {}
@@ -6921,10 +9410,61 @@
             "subscribers": [],
             "title": "TB treatment outcomes",
             "topLimit": 0,
-            "translations": [],
+            "translations": [
+                {
+                    "locale": "pt_BR",
+                    "property": "title",
+                    "value": "Resultados do tratamento da tuberculose"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX-007"
+                },
+                {
+                    "locale": "fr",
+                    "property": "title",
+                    "value": "Résultats du traitement des cas de TB"
+                },
+                {
+                    "locale": "ru",
+                    "property": "title",
+                    "value": "Резултаты лечения ТБ"
+                },
+                {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Pour afficher les résultats du traitement par trimestre avec une comparaison utilisant le même trimestre de l'année précédente"
+                },
+                {
+                    "locale": "pt",
+                    "property": "title",
+                    "value": "Resultados do tratamento da tuberculose"
+                },
+                {
+                    "locale": "uz_UZ",
+                    "property": "title",
+                    "value": "ТБ даво натижалари"
+                },
+                {
+                    "locale": "uz",
+                    "property": "title",
+                    "value": "ТБ даво натижалари"
+                },
+                {
+                    "locale": "cs",
+                    "property": "title",
+                    "value": "Výsledky léčby TBC"
+                }
+            ],
             "type": "COLUMN",
             "userAccesses": [],
             "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "id": "bHLDx9I0XkE",
+                    "userGroupUid": "bHLDx9I0XkE"
+                },
                 {
                     "access": "r-------",
                     "id": "Hoe8uDSoNfN",
