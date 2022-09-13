@@ -83,7 +83,7 @@ The main reasons behind this design choice:
 
 The wide range of variation of the TB standard packages and metadata called for a general design of this impact assessment information to which countries and implementers could map the contextually adapted information. Depending on how the routine data was implemented and adapted, this package should be adapted keeping in mind that the main goal is keeping to the minimum any kind of additional configuration and data collection effort on top of what is already implemented and routinely collected.
 
-Although the published TB-IMPAX package provides a specific set of metadata, [the mapping guide](resources/tb_impax-mapping.xls) includes additional information on the alignment between TB-IMPAX data elements and indicators vs. routine TB data elements, indicators and program indicators.
+Although the TB-IMPAX package includes a separate set of metadata, a [mapping guide](resources/tb_impax-mapping.xlsx) provides additional information on the alignment between TB-IMPAX data elements and indicators vs. routine TB data elements, indicators and program indicators.
 
 The implementation of this package can thus follow different scenarios:
 
