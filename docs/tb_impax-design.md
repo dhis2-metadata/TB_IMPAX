@@ -128,4 +128,4 @@ The module includes the same standard user groups as the TB HMIS package.
 ## References
 
 1. <https://tdr.who.int/newsroom/news/item/08-12-2021-keeping-up-tb-care-during-public-health-emergencies>
-2. <https://www.who.int/publications/digital/global-tuberculosis-report-2021/featured-topics/tb-guidelines>
+2. [Definitions and reporting framework for tuberculosis – 2013 revision: updated December 2014 and January 2020](https://apps.who.int/iris/handle/10665/79199)
