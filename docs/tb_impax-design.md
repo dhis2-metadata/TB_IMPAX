@@ -1,4 +1,4 @@
-# TB/COVID-19 Impact Assessment (IMPAX) - System Design { #tb-impax-design }
+# TB/COVID-19 Impact Assessment (TB IMPAX C19 PHE) - System Design { #tb-impax-design }
 
 ## Introduction
 
@@ -10,7 +10,7 @@ The system design document explains how the aggregate data set was configured to
 
 ## Use Case
 
-The aggregate TB-IMPAX data set was designed to overlap onto the assessment framework to identify the core activities undertaken by TB programmes and to conduct a risk assessment with hypotheses about the potential points of disruption due to COVID-19 or other future PHEs and their consequences. For each possible disruption, one or more indicators were developed to enable the measurement and monitoring of the potential impact of COVID-19.
+The aggregate TB-IMPAX C19 PHE data set was designed to overlap onto the assessment framework to identify the core activities undertaken by TB programmes and to conduct a risk assessment with hypotheses about the potential points of disruption due to COVID-19 or other future PHEs and their consequences. For each possible disruption, one or more indicators were developed to enable the measurement and monitoring of the potential impact of COVID-19.
 
 ## Intended Users
 
@@ -109,7 +109,7 @@ The full list of the validation rules can be found in the metadata reference fil
 
 ## Dashboard
 
-![TB-IMPAX Dashboard](resources/images/tb_impax-007.png)
+![TB-IMPAX C19 PHE Dashboard](resources/images/tb_impax-007.png)
 
 The package includes a predefined dashboard called **TB-IMPAX - C19 Impact Assessment**. The dashboard is set up using the TB-IMPAX core metadata - the optional indicators should be added locally based on the selected metadata. Depending on the uptaken solution for implementation, these should be changed/replaced or mapped to the routine metadata coming from the local/global implemented packages, or kept as such if used also for data entry.
 
@@ -126,3 +126,6 @@ The module includes the same standard user groups as the TB HMIS package.
 | TB data capture | `UKWx4jJcrKt` | View metadata, capture and view data |
 
 ## References
+
+1. <https://tdr.who.int/newsroom/news/item/08-12-2021-keeping-up-tb-care-during-public-health-emergencies>
+2. <https://www.who.int/publications/digital/global-tuberculosis-report-2021/featured-topics/tb-guidelines>
