@@ -1025,13 +1025,13 @@
             "translations": [
                 {
                     "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Analyse d'impact sur TB"
+                    "property": "NAME",
+                    "value": "TB - Analyse d'impact C19"
                 },
                 {
                     "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB - Analyse d'impact C19"
+                    "property": "SHORT_NAME",
+                    "value": "Analyse d'impact sur TB t sur TB"
                 }
             ],
             "user": {
@@ -3021,13 +3021,13 @@
                 },
                 {
                     "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Contacts TB dépistés"
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Dépistage des contacts TB"
                 },
                 {
                     "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Contacts dépistés"
+                    "property": "SHORT_NAME",
+                    "value": "Contacts TB dépistés"
                 }
             ],
             "user": {
@@ -3086,13 +3086,13 @@
             "translations": [
                 {
                     "locale": "fr",
-                    "property": "FORM_NAME",
-                    "value": "Les contacts TB ont commencé le TPT"
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts commencés sur TPT"
                 },
                 {
                     "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Contacts commencés sur TPT"
+                    "property": "FORM_NAME",
+                    "value": "Contacts TB ont commencé le TPT"
                 },
                 {
                     "locale": "fr",
@@ -3126,30 +3126,6 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "Qmd4QOGVABD"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "wE6X4ibr01C"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "IIrUJ1DHV4E"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "vuD2ARqdMnU"
                     },
                     "dataSet": {
@@ -3158,7 +3134,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "kKCu65Z5w85"
+                        "id": "LyAAejDq08o"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -3166,7 +3142,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "M0bQHc8ctnO"
+                        "id": "qENFsCZqItQ"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -3174,7 +3150,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "fxKbAvj3qCL"
+                        "id": "Wvhkkci7pwA"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -3198,7 +3174,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "qENFsCZqItQ"
+                        "id": "M0bQHc8ctnO"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -3206,23 +3182,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "pz6NVApUBg4"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "iNzHG5Wx6bs"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "LyAAejDq08o"
+                        "id": "IIrUJ1DHV4E"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -3238,23 +3198,39 @@
                 },
                 {
                     "dataElement": {
+                        "id": "fxKbAvj3qCL"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Qmd4QOGVABD"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "U2DMiGtiRFr"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "iNzHG5Wx6bs"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "iMvjIj4zcGs"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Wvhkkci7pwA"
-                    },
-                    "dataSet": {
-                        "id": "JGZd3naC9Qx"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "WkhqKuICYSi"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -3270,7 +3246,31 @@
                 },
                 {
                     "dataElement": {
-                        "id": "U2DMiGtiRFr"
+                        "id": "kKCu65Z5w85"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "WkhqKuICYSi"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "pz6NVApUBg4"
+                    },
+                    "dataSet": {
+                        "id": "JGZd3naC9Qx"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "wE6X4ibr01C"
                     },
                     "dataSet": {
                         "id": "JGZd3naC9Qx"
@@ -3401,47 +3401,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "PA701RcSNFW"
-                    },
-                    "dataSet": {
-                        "id": "ql3YI4SokB3"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "Z559GShijW5"
-                    },
-                    "dataSet": {
-                        "id": "ql3YI4SokB3"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "fCnstQVIEVe"
-                    },
-                    "dataSet": {
-                        "id": "ql3YI4SokB3"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "pxb6xFRlmFp"
-                    },
-                    "dataSet": {
-                        "id": "ql3YI4SokB3"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "ump3H2vtAHj"
-                    },
-                    "dataSet": {
-                        "id": "ql3YI4SokB3"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "IFVpM6TjAjt"
                     },
                     "dataSet": {
                         "id": "ql3YI4SokB3"
@@ -3466,6 +3426,46 @@
                 {
                     "dataElement": {
                         "id": "J5sVuSlwQ8t"
+                    },
+                    "dataSet": {
+                        "id": "ql3YI4SokB3"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "PA701RcSNFW"
+                    },
+                    "dataSet": {
+                        "id": "ql3YI4SokB3"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "Z559GShijW5"
+                    },
+                    "dataSet": {
+                        "id": "ql3YI4SokB3"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "IFVpM6TjAjt"
+                    },
+                    "dataSet": {
+                        "id": "ql3YI4SokB3"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "ump3H2vtAHj"
+                    },
+                    "dataSet": {
+                        "id": "ql3YI4SokB3"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "pxb6xFRlmFp"
                     },
                     "dataSet": {
                         "id": "ql3YI4SokB3"
@@ -3524,13 +3524,13 @@
             "translations": [
                 {
                     "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB - C19 Analyse d'impact - Optionnel  (trimestriel)"
+                    "property": "SHORT_NAME",
+                    "value": "TB - Analyse d'impact C19 - Optionnel (trimestriel)"
                 },
                 {
                     "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "TB - C19 Analyse d'impact - Optionnel (trimestriel)"
+                    "property": "NAME",
+                    "value": "TB - Analyse d'impact C19 - Optionnel  (trimestriel)"
                 }
             ],
             "user": {
@@ -4083,13 +4083,13 @@
                 },
                 {
                     "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Couverture du dépistage des contacts (%)"
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Dépistage des contacts TB"
                 },
                 {
                     "locale": "fr",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "TB-IMPAX - Contacts dépistés"
+                    "property": "SHORT_NAME",
+                    "value": "Couverture du dépistage des contacts (%)"
                 },
                 {
                     "locale": "fr",
@@ -4404,6 +4404,11 @@
                     "value": "Les cas de DS-TB ont commencé le TX"
                 },
                 {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Patients atteints de DS-TB ont commencé le traitement au cours de la période de référence"
+                },
+                {
                     "locale": "ru",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -4412,6 +4417,11 @@
                     "locale": "pt",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement au cours de la période de référence"
                 },
                 {
                     "locale": "ar_EG",
@@ -4424,19 +4434,9 @@
                     "value": "1"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Les patients  DS-TB ont commencé le traitement au cours du mois de déclaration"
-                },
-                {
                     "locale": "nb",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement au cours du mois de déclaration"
                 }
             ],
             "user": {
@@ -4515,6 +4515,11 @@
                     "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec allocation complète du traitement"
                 },
                 {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Patients atteints de TB-DS actuellement sous traitement qui ont reçu la totalité du traitement au cours de la période de référence"
+                },
+                {
                     "locale": "ar_IQ",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -4540,24 +4545,19 @@
                     "value": "1"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Patients atteints de TB-DS actuellement sous traitement qui ont reçu la totalité du traitement au cours du mois de référence"
-                },
-                {
                     "locale": "ar_EG",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "1"
-                },
-                {
-                    "locale": "pt_BR",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 },
                 {
                     "locale": "fr",
                     "property": "NAME",
-                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec allocation complète du traitement au cours du mois de déclaration"
+                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec une allocation de traitement complète au cours de la période de rapport"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
                 },
                 {
                     "locale": "nb",
@@ -4683,13 +4683,13 @@
             "translations": [
                 {
                     "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de TBP confirmés bactériologiquement - guéris"
                 },
                 {
                     "locale": "fr",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "TB-IMPAX - Cas de TBP confirmés bactériologiquement (nouveaux et rechutes) - guéris"
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
                 },
                 {
                     "locale": "fr",
@@ -4754,6 +4754,11 @@
             "translations": [
                 {
                     "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement - décédés"
+                },
+                {
+                    "locale": "fr",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
                 },
@@ -4771,11 +4776,6 @@
                     "locale": "fr",
                     "property": "SHORT_NAME",
                     "value": "Nouveaux cas et rechutes de TB-DS - décès (%)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "TB-IMPAX - Cas de TBP confirmés bactériologiquement (nouveaux et rechutes) - décédés"
                 }
             ],
             "user": {
@@ -5848,11 +5848,6 @@
                     "value": "1"
                 },
                 {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Contacts éligibles pour TPT"
-                },
-                {
                     "locale": "cs",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -5868,14 +5863,9 @@
                     "value": "1"
                 },
                 {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos elegibles para TPT"
-                },
-                {
-                    "locale": "es_US",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos elegibles para TPT"
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts TB éligibles pour TPT"
                 },
                 {
                     "locale": "ru",
@@ -5893,9 +5883,9 @@
                     "value": "1"
                 },
                 {
-                    "locale": "cs",
+                    "locale": "fr",
                     "property": "SHORT_NAME",
-                    "value": "Kontakty způsobilé pro TPT"
+                    "value": "Contacts TB éligibles au TPT"
                 },
                 {
                     "locale": "pt_BR",
@@ -5911,11 +5901,6 @@
                     "locale": "fr",
                     "property": "DESCRIPTION",
                     "value": "Contacts domestiques identifiés éligibles au traitement préventif de la tuberculose (TPT)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Contacts éligibles pour TPT"
                 }
             ],
             "user": {
@@ -5969,16 +5954,6 @@
                     "value": "1"
                 },
                 {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Contacts identifiés"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Identifikované kontakty"
-                },
-                {
                     "locale": "es_US",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -6009,6 +5984,16 @@
                     "value": "1"
                 },
                 {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts TB identifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts TB identifiés"
+                },
+                {
                     "locale": "ru",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -6019,24 +6004,9 @@
                     "value": "1"
                 },
                 {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos identificados"
-                },
-                {
                     "locale": "fr",
                     "property": "DESCRIPTION",
                     "value": "Contacts domestiques éligibles au TPT d'un cas confirmé de TB"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Contacts identifiés"
-                },
-                {
-                    "locale": "es_US",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos identificados"
                 },
                 {
                     "locale": "ar_EG",
@@ -6130,6 +6100,11 @@
                     "value": "TB-IMPAX - Contacts TB commencés sur TPT"
                 },
                 {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts TB commencés sur TPT"
+                },
+                {
                     "locale": "cs",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -6165,16 +6140,6 @@
                     "value": "1"
                 },
                 {
-                    "locale": "es_US",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos iniciados en TPT"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Kontakty zahájeny na TPT"
-                },
-                {
                     "locale": "ar_EG",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -6183,16 +6148,6 @@
                     "locale": "pt_BR",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Contacts commencés sur TPT"
-                },
-                {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos iniciados en TPT"
                 },
                 {
                     "locale": "nb",
@@ -6616,7 +6571,7 @@
         "DHIS2Version": "2.36.12",
         "code": "TB_IMPAX",
         "description": "TB - COVID-19 Impact Assessment",
-        "lastUpdated": "20220914T130414",
+        "lastUpdated": "20221024T142254",
         "locale": "en",
         "name": "TB_IMPAX_AGG_DHIS2.36.12-en",
         "type": "AGG",
@@ -6779,7 +6734,7 @@
                 {
                     "locale": "fr",
                     "property": "NAME",
-                    "value": "Éléments de données optionnels"
+                    "value": "Éléments de données facultatifs"
                 }
             ],
             "userAccesses": [],
@@ -6830,26 +6785,6 @@
                     "locale": "fr",
                     "property": "NAME",
                     "value": "Cas TB"
-                },
-                {
-                    "locale": "uz",
-                    "property": "NAME",
-                    "value": "ТБ ҳолатлар"
-                },
-                {
-                    "locale": "pt_BR",
-                    "property": "NAME",
-                    "value": "Casos de tuberculose"
-                },
-                {
-                    "locale": "uz_UZ",
-                    "property": "NAME",
-                    "value": "TB holatlar"
-                },
-                {
-                    "locale": "pt",
-                    "property": "NAME",
-                    "value": "Casos de tuberculose"
                 }
             ],
             "userAccesses": [],
@@ -6914,7 +6849,7 @@
                 {
                     "locale": "fr",
                     "property": "NAME",
-                    "value": "Traitement TB et résultats"
+                    "value": "Traitement de la tuberculose et issues"
                 }
             ],
             "userAccesses": [],
