@@ -798,13 +798,13 @@
                 },
                 {
                     "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Couverture du dépistage des contacts (%)"
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Dépistage des contacts TB"
                 },
                 {
                     "locale": "fr",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "TB-IMPAX - Contacts dépistés"
+                    "property": "SHORT_NAME",
+                    "value": "Couverture du dépistage des contacts (%)"
                 },
                 {
                     "locale": "fr",
@@ -1119,6 +1119,11 @@
                     "value": "Les cas de DS-TB ont commencé le TX"
                 },
                 {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Patients atteints de DS-TB ont commencé le traitement au cours de la période de référence"
+                },
+                {
                     "locale": "ru",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -1127,6 +1132,11 @@
                     "locale": "pt",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement au cours de la période de référence"
                 },
                 {
                     "locale": "ar_EG",
@@ -1139,19 +1149,9 @@
                     "value": "1"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Les patients  DS-TB ont commencé le traitement au cours du mois de déclaration"
-                },
-                {
                     "locale": "nb",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement au cours du mois de déclaration"
                 }
             ],
             "user": {
@@ -1230,6 +1230,11 @@
                     "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec allocation complète du traitement"
                 },
                 {
+                    "locale": "fr",
+                    "property": "DESCRIPTION",
+                    "value": "Patients atteints de TB-DS actuellement sous traitement qui ont reçu la totalité du traitement au cours de la période de référence"
+                },
+                {
                     "locale": "ar_IQ",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -1255,24 +1260,19 @@
                     "value": "1"
                 },
                 {
-                    "locale": "fr",
-                    "property": "DESCRIPTION",
-                    "value": "Patients atteints de TB-DS actuellement sous traitement qui ont reçu la totalité du traitement au cours du mois de référence"
-                },
-                {
                     "locale": "ar_EG",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "1"
-                },
-                {
-                    "locale": "pt_BR",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 },
                 {
                     "locale": "fr",
                     "property": "NAME",
-                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec allocation complète du traitement au cours du mois de déclaration"
+                    "value": "TB-IMPAX - Cas de TB-DS mis sous traitement avec une allocation de traitement complète au cours de la période de rapport"
+                },
+                {
+                    "locale": "pt_BR",
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "1"
                 },
                 {
                     "locale": "nb",
@@ -1398,13 +1398,13 @@
             "translations": [
                 {
                     "locale": "fr",
-                    "property": "DENOMINATOR_DESCRIPTION",
-                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas et rechutes de TBP confirmés bactériologiquement - guéris"
                 },
                 {
                     "locale": "fr",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "TB-IMPAX - Cas de TBP confirmés bactériologiquement (nouveaux et rechutes) - guéris"
+                    "property": "DENOMINATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
                 },
                 {
                     "locale": "fr",
@@ -1469,6 +1469,11 @@
             "translations": [
                 {
                     "locale": "fr",
+                    "property": "NUMERATOR_DESCRIPTION",
+                    "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement - décédés"
+                },
+                {
+                    "locale": "fr",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "TB-IMPAX - Nouveaux cas de TBP et rechutes confirmés bactériologiquement (cohorte)"
                 },
@@ -1486,11 +1491,6 @@
                     "locale": "fr",
                     "property": "SHORT_NAME",
                     "value": "Nouveaux cas et rechutes de TB-DS - décès (%)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NUMERATOR_DESCRIPTION",
-                    "value": "TB-IMPAX - Cas de TBP confirmés bactériologiquement (nouveaux et rechutes) - décédés"
                 }
             ],
             "user": {
@@ -2563,11 +2563,6 @@
                     "value": "1"
                 },
                 {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Contacts éligibles pour TPT"
-                },
-                {
                     "locale": "cs",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -2583,14 +2578,9 @@
                     "value": "1"
                 },
                 {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos elegibles para TPT"
-                },
-                {
-                    "locale": "es_US",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos elegibles para TPT"
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts TB éligibles pour TPT"
                 },
                 {
                     "locale": "ru",
@@ -2608,9 +2598,9 @@
                     "value": "1"
                 },
                 {
-                    "locale": "cs",
+                    "locale": "fr",
                     "property": "SHORT_NAME",
-                    "value": "Kontakty způsobilé pro TPT"
+                    "value": "Contacts TB éligibles au TPT"
                 },
                 {
                     "locale": "pt_BR",
@@ -2626,11 +2616,6 @@
                     "locale": "fr",
                     "property": "DESCRIPTION",
                     "value": "Contacts domestiques identifiés éligibles au traitement préventif de la tuberculose (TPT)"
-                },
-                {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Contacts éligibles pour TPT"
                 }
             ],
             "user": {
@@ -2684,16 +2669,6 @@
                     "value": "1"
                 },
                 {
-                    "locale": "fr",
-                    "property": "SHORT_NAME",
-                    "value": "Contacts identifiés"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Identifikované kontakty"
-                },
-                {
                     "locale": "es_US",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -2724,6 +2699,16 @@
                     "value": "1"
                 },
                 {
+                    "locale": "fr",
+                    "property": "SHORT_NAME",
+                    "value": "Contacts TB identifiés"
+                },
+                {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts TB identifiés"
+                },
+                {
                     "locale": "ru",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -2734,24 +2719,9 @@
                     "value": "1"
                 },
                 {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos identificados"
-                },
-                {
                     "locale": "fr",
                     "property": "DESCRIPTION",
                     "value": "Contacts domestiques éligibles au TPT d'un cas confirmé de TB"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Contacts identifiés"
-                },
-                {
-                    "locale": "es_US",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos identificados"
                 },
                 {
                     "locale": "ar_EG",
@@ -2845,6 +2815,11 @@
                     "value": "TB-IMPAX - Contacts TB commencés sur TPT"
                 },
                 {
+                    "locale": "fr",
+                    "property": "NAME",
+                    "value": "TB-IMPAX - Contacts TB commencés sur TPT"
+                },
+                {
                     "locale": "cs",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -2880,16 +2855,6 @@
                     "value": "1"
                 },
                 {
-                    "locale": "es_US",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos iniciados en TPT"
-                },
-                {
-                    "locale": "cs",
-                    "property": "SHORT_NAME",
-                    "value": "Kontakty zahájeny na TPT"
-                },
-                {
                     "locale": "ar_EG",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
@@ -2898,16 +2863,6 @@
                     "locale": "pt_BR",
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
-                },
-                {
-                    "locale": "fr",
-                    "property": "NAME",
-                    "value": "TB-IMPAX - Contacts commencés sur TPT"
-                },
-                {
-                    "locale": "es",
-                    "property": "SHORT_NAME",
-                    "value": "Contactos iniciados en TPT"
                 },
                 {
                     "locale": "nb",
@@ -3324,8 +3279,8 @@
         "DHIS2Build": "23c23c5",
         "DHIS2Version": "2.37.7.1",
         "code": "TB_IMPAX",
-        "description": "TB - COVID-19 Impact Assessment",
-        "lastUpdated": "20220909T114912",
+        "description": "TB - Covid-19 Impact Assessment Dashboard",
+        "lastUpdated": "20221024T130619",
         "locale": "en",
         "name": "TB_IMPAX_DSH_DHIS2.37.7.1-en",
         "type": "DSH",
