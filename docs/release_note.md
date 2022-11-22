@@ -1,4 +1,4 @@
-# Release Note
+# Release Note { #tb-impax-release-note }
 
 ## 1.0.1
 
