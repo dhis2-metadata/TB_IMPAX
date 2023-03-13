@@ -4,7 +4,6 @@
     "dashboards": [
         {
             "allowedFilters": [],
-            "attributeValues": [],
             "code": "TB_IMPAX",
             "dashboardItems": [
                 {
@@ -20,9 +19,7 @@
                     "reports": [],
                     "resources": [],
                     "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
+                        "external": false
                     },
                     "translations": [],
                     "type": "VISUALIZATION",
@@ -49,9 +46,7 @@
                     "reports": [],
                     "resources": [],
                     "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
+                        "external": false
                     },
                     "translations": [],
                     "type": "VISUALIZATION",
@@ -78,9 +73,7 @@
                     "reports": [],
                     "resources": [],
                     "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
+                        "external": false
                     },
                     "translations": [],
                     "type": "VISUALIZATION",
@@ -107,9 +100,7 @@
                     "reports": [],
                     "resources": [],
                     "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
+                        "external": false
                     },
                     "translations": [],
                     "type": "VISUALIZATION",
@@ -136,9 +127,7 @@
                     "reports": [],
                     "resources": [],
                     "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
+                        "external": false
                     },
                     "translations": [],
                     "type": "VISUALIZATION",
@@ -165,9 +154,7 @@
                     "reports": [],
                     "resources": [],
                     "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
+                        "external": false
                     },
                     "translations": [],
                     "type": "VISUALIZATION",
@@ -194,9 +181,7 @@
                     "reports": [],
                     "resources": [],
                     "sharing": {
-                        "external": false,
-                        "userGroups": {},
-                        "users": {}
+                        "external": false
                     },
                     "translations": [],
                     "type": "VISUALIZATION",
@@ -212,12 +197,8 @@
                 }
             ],
             "description": "This dashboard is based on the impact assessment framework that has been developed to outline a common methodology to monitor and evaluate the impact of COVID-19 and future PHE on TB service provision across different epidemiological and process indicators. The framework is designed to strengthen routine TB surveillance by NTPs and to facilitate the identification and implementation of appropriate mitigation strategies to ensure the continued functionality of TB services during periods of significant disruption. \n",
-            "externalAccess": false,
-            "favorite": false,
             "id": "fUBXRAIJ9HY",
-            "itemCount": 7,
             "name": "TB-IMPAX - C19 Impact Assessment",
-            "publicAccess": "--------",
             "restrictFilters": false,
             "sharing": {
                 "external": false,
@@ -250,29 +231,6 @@
                     "property": "DESCRIPTION",
                     "value": "Ce tableau de bord est basé sur le cadre d'évaluation d'impact qui a été développé pour définir une méthodologie commune pour surveiller et évaluer l'impact du COVID-19 et des futurs PHE sur la prestation de services antituberculeux à travers différents indicateurs épidémiologiques et de processus. Le cadre est conçu pour renforcer la surveillance de routine de la tuberculose par les PNT et pour faciliter l'identification et la mise en œuvre de stratégies d'atténuation appropriées pour assurer la fonctionnalité continue des services de lutte contre la tuberculose pendant les périodes de perturbations importantes.\n"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "bHLDx9I0XkE",
-                    "userGroupUid": "bHLDx9I0XkE"
-                },
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
             ]
         }
     ],
@@ -283,12 +241,13 @@
         {
             "attributeValues": [],
             "code": "TB_IMPAX_CORE",
-            "externalAccess": false,
-            "favorite": false,
             "id": "rT9B4pVufTB",
             "indicators": [
                 {
                     "id": "SGecBS4r8c6"
+                },
+                {
+                    "id": "V8rMo1CO6wu"
                 },
                 {
                     "id": "gDHITVkS40y"
@@ -297,13 +256,25 @@
                     "id": "eTwRLTwwWBU"
                 },
                 {
-                    "id": "DsEBDPYrHwH"
+                    "id": "W9WcsOCSaxi"
                 },
                 {
                     "id": "j9ULA7vIKyD"
                 },
                 {
+                    "id": "DsEBDPYrHwH"
+                },
+                {
+                    "id": "mgjekomtDZg"
+                },
+                {
+                    "id": "N15hJn6p4gu"
+                },
+                {
                     "id": "g61YQA3w51A"
+                },
+                {
+                    "id": "zvnc7tww8tL"
                 },
                 {
                     "id": "xHEsY8kfnSM"
@@ -315,49 +286,32 @@
                     "id": "tfJZaa2sVd7"
                 },
                 {
-                    "id": "Me9KR0oNWpu"
-                },
-                {
-                    "id": "sFl4LDGq1Ta"
-                },
-                {
-                    "id": "aMwaOD71YXZ"
-                },
-                {
-                    "id": "V8rMo1CO6wu"
-                },
-                {
-                    "id": "W9WcsOCSaxi"
-                },
-                {
-                    "id": "mgjekomtDZg"
-                },
-                {
-                    "id": "N15hJn6p4gu"
-                },
-                {
-                    "id": "zvnc7tww8tL"
-                },
-                {
                     "id": "BES6Aw37iyg"
                 },
                 {
                     "id": "nAmUvU83Gwj"
                 },
                 {
+                    "id": "Me9KR0oNWpu"
+                },
+                {
+                    "id": "sFl4LDGq1Ta"
+                },
+                {
                     "id": "kOWpAxDYNQC"
+                },
+                {
+                    "id": "aMwaOD71YXZ"
                 },
                 {
                     "id": "Z0OxQVvDZ1y"
                 }
             ],
             "name": "TB - C19 Impact Assessment (Core)",
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "translations": [
@@ -366,20 +320,11 @@
                     "property": "NAME",
                     "value": "TB - Analyse d'impact C19 (Base)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "attributeValues": [],
             "code": "TB_IMPAX_OPTIONAL",
-            "externalAccess": false,
-            "favorite": false,
             "id": "hgTDFS4Zus8",
             "indicators": [
                 {
@@ -402,12 +347,10 @@
                 }
             ],
             "name": "TB - C19 Impact Assessment (Optional)",
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "translations": [
@@ -416,31 +359,16 @@
                     "property": "NAME",
                     "value": "TB - Analyse d'impact C19 (optionnel)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         }
     ],
     "indicatorTypes": [
         {
-            "attributeValues": [],
             "code": "GEN_LIB_NUMBER_ONLY",
-            "externalAccess": false,
             "factor": 1,
-            "favorite": false,
             "id": "kHy61PbChXr",
             "name": "Numerator only (number)",
             "number": true,
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
             "translations": [
                 {
                     "locale": "fr",
@@ -512,24 +440,14 @@
                     "property": "NAME",
                     "value": "Pouze čitatel (číslo)"
                 }
-            ],
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
-            "attributeValues": [],
             "code": "GEN_LIB_PERCENT",
-            "externalAccess": false,
             "factor": 100,
-            "favorite": false,
             "id": "hmSnCXmLYwt",
             "name": "Percentage",
             "number": false,
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
             "translations": [
                 {
                     "locale": "uz",
@@ -606,9 +524,7 @@
                     "property": "NAME",
                     "value": "Foiz"
                 }
-            ],
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         }
     ],
     "indicators": [
@@ -616,21 +532,11 @@
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_HIV_NEW_TB_CASES",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Diagnosed new and relapse TB cases",
             "description": "Proportion of new and relapse TB patients who were tested for HIV at time of TB diagnosis or with known HIV status at time of diagnosis  ",
-            "dimensionItem": "fFXhPuJfxY8",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "fFXhPuJfxY8",
-            "indicatorGroups": [
-                {
-                    "id": "hgTDFS4Zus8"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -638,13 +544,10 @@
             "name": "[CONFIG] TB-IMPAX - Awareness of HIV status among newly confirmed TB cases",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - New and relapse TB cases either tested for HIV at time of TB diagnosis or with known HIV-status at time of diagnosis",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "HIV-awareness among newly confirmed TB cases",
@@ -674,34 +577,17 @@
                     "property": "SHORT_NAME",
                     "value": "Connaissance du statut VIH parmi les cas de TB nouvellement confirmés"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_ACTIVE_CF",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Discreet active case finding activities planned/scheduled",
             "description": "Proportion of planned active case finding activities which are conducted",
-            "dimensionItem": "LAUj7zeBZV3",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "LAUj7zeBZV3",
-            "indicatorGroups": [
-                {
-                    "id": "hgTDFS4Zus8"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -709,13 +595,10 @@
             "name": "[CONFIG] TB-IMPAX - Conduct of planned active case finding activities (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Discreet active case finding events conducted",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Active case finding activities (%)",
@@ -745,34 +628,17 @@
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "TB-IMPAX - Événements discrets de recherche active de cas"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_CONTACT_COVERAGE",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - TB contacts identified",
             "description": "Proportion of individuals identified as household contacts of a confirmed TB case (according to local programme definitions) who are screened for TB",
-            "dimensionItem": "V8rMo1CO6wu",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "V8rMo1CO6wu",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -780,13 +646,10 @@
             "name": "[CONFIG] TB-IMPAX - Contact screening coverage (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - TB contacts screened",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Contact screening coverage (%)",
@@ -816,34 +679,17 @@
                     "property": "NAME",
                     "value": "TB-IMPAX - Couverture du dépistage des contacts (%)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_CONTACTS_SCREENED",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "TPT-eligible household contacts of a confirmed TB case who are screened",
-            "dimensionItem": "mgjekomtDZg",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "mgjekomtDZg",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -851,13 +697,10 @@
             "name": "[CONFIG] TB-IMPAX - Contacts screened",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Contacts screened",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Contacts screened",
@@ -957,34 +800,17 @@
                     "property": "SHORT_NAME",
                     "value": "Contacts dépistés"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_COVERAGE_DST",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - TB case notified during the reporting period",
             "description": "Proportion of TB cases with DST results for at least rifampicin resistance ",
-            "dimensionItem": "VeVSWGZrPsR",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "VeVSWGZrPsR",
-            "indicatorGroups": [
-                {
-                    "id": "hgTDFS4Zus8"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -992,13 +818,10 @@
             "name": "[CONFIG] TB-IMPAX - Coverage of drug susceptibility testing (DST) for TB cases (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - TB cases with DST results for at least Rifampicin",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "TB-IMPAX - DST coverage for TB cases (%)",
@@ -1028,33 +851,16 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "TB-IMPAX - Cas TB notifié au cours de la période de notification"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DSTB_TX_STARTED",
-            "dataSets": [],
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "Patients with DS-TB started on treatment during the reporting period",
-            "dimensionItem": "zvnc7tww8tL",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "zvnc7tww8tL",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -1062,13 +868,10 @@
             "name": "[CONFIG] TB-IMPAX - DS-TB cases started on treatment during the reporting period",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Confirmed DS-TB cases started on treatment",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "DS-TB cases started on TX",
@@ -1153,34 +956,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DSTB_TX_STARTED_RECEIVED_CURRENT_PERIOD",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "DS-TB patients currently started on treatment who received full allocation of treatment during the reporting period",
-            "dimensionItem": "Z0OxQVvDZ1y",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "Z0OxQVvDZ1y",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -1188,13 +974,10 @@
             "name": "[CONFIG] TB-IMPAX - DS-TB cases started on treatment with full treatment allocation during the reporting period",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - DS-TB cases started on treatment with full allocation of treatment",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "DS-TB cases - TX started and received",
@@ -1279,34 +1062,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_PROP_HF_STOCKOUT_DRUGS",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Health facilities",
             "description": "Proportion of facilities experiencing any stock-out of any required 1-line or 2-line drugs (or drug kits) per month ",
-            "dimensionItem": "AsplxqUhQmH",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "AsplxqUhQmH",
-            "indicatorGroups": [
-                {
-                    "id": "hgTDFS4Zus8"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -1314,13 +1080,10 @@
             "name": "[CONFIG] TB-IMPAX - Health facilities experiencing stock-outs of anti-TB drugs (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Health facilities experiencing stock-outs of anti-TB drugs",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Health facilities experiencing stock-outs %",
@@ -1350,34 +1113,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "TB-IMPAX - Établissements de santé"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DSTB_CURED",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases (cohort)",
             "description": "Proportion of new and relapse pulmonary bacteriologically confirmed TB patients who were cured",
-            "dimensionItem": "tfJZaa2sVd7",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "tfJZaa2sVd7",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -1385,13 +1131,10 @@
             "name": "[CONFIG] TB-IMPAX - New and relapse DS-TB cases - cured (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - cured",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - cured (%)",
@@ -1421,34 +1164,17 @@
                     "property": "NAME",
                     "value": "TB-IMPAX - Nouveaux cas et rechutes de DS-TB - guéris (%)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DSTB_DIED",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases (cohort)",
             "description": "Proportion of new and relapse pulmonary bacteriologically confirmed TB patients who died",
-            "dimensionItem": "xHEsY8kfnSM",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "xHEsY8kfnSM",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -1456,13 +1182,10 @@
             "name": "[CONFIG] TB-IMPAX - New and relapse DS-TB cases - died (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - died",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - died (%)",
@@ -1492,34 +1215,17 @@
                     "property": "SHORT_NAME",
                     "value": "Nouveaux cas et rechutes de TB-DS - décès (%)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DSTB_FAILED",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases (cohort)",
             "description": "Proportion of new and relapse pulmonary bacteriologically confirmed TB patients whose treatment failed",
-            "dimensionItem": "N15hJn6p4gu",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "N15hJn6p4gu",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -1527,13 +1233,10 @@
             "name": "[CONFIG] TB-IMPAX - New and relapse DS-TB cases - failed (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - failed",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - failed (%)",
@@ -1563,34 +1266,17 @@
                     "property": "DESCRIPTION",
                     "value": "Proportion de patients TB pulmonaires nouveaux et en rechute confirmés bactériologiquement dont le traitement a échoué"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DSTB_LTFU",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases (cohort)",
             "description": "Proportion of new and relapse pulmonary bacteriologically confirmed TB patients who were lost to follow up",
-            "dimensionItem": "aMwaOD71YXZ",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "aMwaOD71YXZ",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -1598,13 +1284,10 @@
             "name": "[CONFIG] TB-IMPAX - New and relapse DS-TB cases - lost to follow-up (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - LTFU",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - LTFU (%)",
@@ -1634,34 +1317,17 @@
                     "property": "NUMERATOR_DESCRIPTION",
                     "value": "TB-IMPAX - Nouveaux cas et rechutes de TP confirmés bactériologiquement - PDV"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DSTB_NEVAL",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases (cohort)",
             "description": "Proportion of new and relapse pulmonary bacteriologically confirmed TB patients who were not evaluated",
-            "dimensionItem": "BES6Aw37iyg",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "BES6Aw37iyg",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -1669,13 +1335,10 @@
             "name": "[CONFIG] TB-IMPAX - New and relapse DS-TB cases - not evaluated (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - not evaluated",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - not evaluated (%)",
@@ -1705,34 +1368,17 @@
                     "property": "SHORT_NAME",
                     "value": "Nouveaux cas et rechutes de TB-DS - non évalués (%)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DSTB_COMPLETED",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases (cohort)",
             "description": "Proportion of new and relapse pulmonary bacteriologically confirmed TB patients who completed treatment",
-            "dimensionItem": "sFl4LDGq1Ta",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "sFl4LDGq1Ta",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -1740,13 +1386,10 @@
             "name": "[CONFIG] TB-IMPAX - New and relapse DS-TB cases - treatment completed (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - treatment completed",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "New and relapse DS-TB cases - tx completed (%)",
@@ -1776,34 +1419,17 @@
                     "property": "SHORT_NAME",
                     "value": "Nouveaux cas et rechutes de TB-DS - tx terminés (%)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_EPTB_NEW",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "Newly diagnosed extra-pulmonary TB cases either bacteriologically confirmed or clinically diagnosed",
-            "dimensionItem": "g61YQA3w51A",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "g61YQA3w51A",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -1811,13 +1437,10 @@
             "name": "[CONFIG] TB-IMPAX - Newly diagnosed extra-pulmonary TB cases",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Notified bacteriologically confirmed or clinically diagnosed EP-TB cases",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Newly diagnosed extra-pulmonary TB cases",
@@ -1902,34 +1525,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_PTB_NEW_RELAPSE",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "New episodes of pulmonary TB (new and relapse cases) notified monthly",
-            "dimensionItem": "nAmUvU83Gwj",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "nAmUvU83Gwj",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -1937,13 +1543,10 @@
             "name": "[CONFIG] TB-IMPAX - Notified new and relapse PTB cases",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Notified new and relapse PTB-cases",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Notified new and relapse PTB cases",
@@ -2028,34 +1631,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_NOTIFIED_CASES",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "New episodes of TB (new and relapse cases) notified monthly",
-            "dimensionItem": "eTwRLTwwWBU",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "eTwRLTwwWBU",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -2063,13 +1649,10 @@
             "name": "[CONFIG] TB-IMPAX - Notified new and relapse TB cases (all forms)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Notified new and relapse TB cases",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Notified new and relapse TB cases (all forms)",
@@ -2154,34 +1737,17 @@
                     "property": "NAME",
                     "value": "TB-IMPAX - Nouveaux cas TB et cas de rechute notifiés (toutes les formes)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_PRESUMPTIVE_CASES_1LINE_TEST",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "Individuals identified as presumptive cases who are tested for TB with any type of 1-line laboratory diagnostic",
-            "dimensionItem": "j9ULA7vIKyD",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "j9ULA7vIKyD",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -2189,13 +1755,10 @@
             "name": "[CONFIG] TB-IMPAX - Presumptive TB cases tested by any 1-line lab diagnostic",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Presumptive TB cases tested by any lab diagnostic",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Presumptive TB cases tested",
@@ -2295,33 +1858,16 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_PRESUMPTIVE_POSITIVE_TEST",
-            "dataSets": [],
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "Individuals identified as presumptive cases who are tested for TB with any type of first line laboratory diagnostic and receive a positive test result",
-            "dimensionItem": "DsEBDPYrHwH",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "DsEBDPYrHwH",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -2329,13 +1875,10 @@
             "name": "[CONFIG] TB-IMPAX - Presumptive TB cases with positive lab test result",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Presumptive TB cases tested positive by any lab diagnostic",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Presumptive TB cases with positive lab test result",
@@ -2420,34 +1963,17 @@
                     "property": "NAME",
                     "value": "TB-IMPAX - Cas présumés TB avec résultat de test de laboratoire positif"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_PROP_PRESUMPTIVE_POSITIVE_TEST",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Presumptive TB cases tested by any lab diagnostic",
             "description": "Proportion of individuals with presumptive TB who are confirmed by 1st line diagnostic testing",
-            "dimensionItem": "Me9KR0oNWpu",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "Me9KR0oNWpu",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -2455,13 +1981,10 @@
             "name": "[CONFIG] TB-IMPAX - Presumptive TB cases with positive lab test result (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Presumptive TB cases tested positive by any lab diagnostic",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Presumptive TB cases tested positive %",
@@ -2491,34 +2014,17 @@
                     "property": "DESCRIPTION",
                     "value": "Proportion de personnes atteintes de tuberculose présumée qui sont confirmées par un test de diagnostic de 1ère ligne"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_CONTACTS_ELEGIBLE_TPT",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "Identified household contacts who are eligible for TB preventive therapy (TPT)",
-            "dimensionItem": "SPN6pR6MSIp",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "SPN6pR6MSIp",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -2526,13 +2032,10 @@
             "name": "[CONFIG] TB-IMPAX - TB contacts eligible for TPT",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - TB contacts eligible for TPT",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "TB contacts eligible for TPT",
@@ -2617,34 +2120,17 @@
                     "property": "DESCRIPTION",
                     "value": "Contacts domestiques identifiés éligibles au traitement préventif de la tuberculose (TPT)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_CONTACTS_IDENTIFIED",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "TPT-eligible household contacts of a confirmed TB case",
-            "dimensionItem": "gDHITVkS40y",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "gDHITVkS40y",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -2652,13 +2138,10 @@
             "name": "[CONFIG] TB-IMPAX - TB contacts identified",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - TB contacts identified",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "TB contacts identified",
@@ -2743,34 +2226,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_CONTACTS_TPT_STARTED",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "Identified, household contacts who are commenced on TB preventive therapy (TPT)",
-            "dimensionItem": "W9WcsOCSaxi",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "W9WcsOCSaxi",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -2778,13 +2244,10 @@
             "name": "[CONFIG] TB-IMPAX - TB contacts started on TPT",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - TB contacts started on TPT",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "TB contacts started on TPT",
@@ -2869,34 +2332,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_DRUGS_STOCKOUT_TIME",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "Days spent experiencing stock-out of any required 1-line or 2-line drugs (or drug kits) per month",
-            "dimensionItem": "IGZKniZZiLP",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "IGZKniZZiLP",
-            "indicatorGroups": [
-                {
-                    "id": "hgTDFS4Zus8"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -2904,13 +2350,10 @@
             "name": "[CONFIG] TB-IMPAX - Time spent experiencing stock-outs of anti-TB drugs",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Stock-outs of anti-TB drugs (days)",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Anti-TB drugs stock-out time",
@@ -2995,34 +2438,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_LAB_STOCKOUT_TIME",
-            "dataSets": [],
             "decimals": 0,
             "denominator": -1,
             "denominatorDescription": "1",
             "description": "Days spent experiencing stock-out of any lab consumable/stock per month",
-            "dimensionItem": "YaXoIw3KitF",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "YaXoIw3KitF",
-            "indicatorGroups": [
-                {
-                    "id": "hgTDFS4Zus8"
-                }
-            ],
             "indicatorType": {
                 "id": "kHy61PbChXr"
             },
@@ -3030,13 +2456,10 @@
             "name": "[CONFIG] TB-IMPAX - Time spent experiencing stock-outs of laboratory consumables",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Stock-outs of laboratory consumables (days)",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Laboratory consumables stock-out time",
@@ -3121,34 +2544,17 @@
                     "property": "DENOMINATOR_DESCRIPTION",
                     "value": "1"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_TPT_COVERAGE",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - TB contacts eligible for TPT",
             "description": "Proportion of TPT-eligible household contacts who are started on TPT",
-            "dimensionItem": "kOWpAxDYNQC",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "kOWpAxDYNQC",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -3156,13 +2562,10 @@
             "name": "[CONFIG] TB-IMPAX - TPT coverage (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - TB contacts started on TPT",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "TPT coverage (%)",
@@ -3192,34 +2595,17 @@
                     "property": "DESCRIPTION",
                     "value": "Proportion de contacts domestiques éligibles au TPT qui commencent le TPT"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         },
         {
             "annualized": false,
             "attributeValues": [],
             "code": "TB_IMPAX_TX_SUCCESS_RATE",
-            "dataSets": [],
             "decimals": 2,
             "denominator": -1,
             "denominatorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases (cohort)",
             "description": "Proportion of new and relapse pulmonary bacteriologically confirmed TB patients who were successfully treated (cured or treatment completed)",
-            "dimensionItem": "SGecBS4r8c6",
-            "dimensionItemType": "INDICATOR",
-            "externalAccess": false,
-            "favorite": false,
             "id": "SGecBS4r8c6",
-            "indicatorGroups": [
-                {
-                    "id": "rT9B4pVufTB"
-                }
-            ],
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
@@ -3227,13 +2613,10 @@
             "name": "[CONFIG] TB-IMPAX - Treatment success rate for new and relapse DS-TB cases (%)",
             "numerator": -1,
             "numeratorDescription": "TB-IMPAX - Bacteriologically confirmed new and relapse PTB cases - cured/treatment completed",
-            "periodOffset": 0,
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "shortName": "Tx success rate for new and relapse DS-TB (%)",
@@ -3263,26 +2646,21 @@
                     "property": "SHORT_NAME",
                     "value": "Taux de réussite du traitement pour les nouveaux cas et les rechutes de DS-TB (%)"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": []
+            ]
         }
     ],
     "legendSets": [],
     "maps": [],
+    "organisationUnitGroupSets": [],
+    "organisationUnitGroups": [],
     "package": {
-        "DHIS2Build": "23c23c5",
-        "DHIS2Version": "2.37.7.1",
+        "DHIS2Build": "d9a77b2",
+        "DHIS2Version": "2.37.8",
         "code": "TB_IMPAX",
-        "description": "TB - Covid-19 Impact Assessment Dashboard",
-        "lastUpdated": "20221024T130619",
+        "description": "TB - COVID-19 Impact Assessment (dashboard)",
+        "lastUpdated": "20230307T162146",
         "locale": "en",
-        "name": "TB_IMPAX_DSH_DHIS2.37.7.1-en",
+        "name": "TB_IMPAX_DSH_DHIS2.37.8-en",
         "type": "DSH",
         "version": ""
     },
@@ -3290,17 +2668,9 @@
         {
             "attributeValues": [],
             "code": "TB_AGG_ACCESS",
-            "externalAccess": false,
-            "favorite": false,
             "id": "Hoe8uDSoNfN",
-            "managedByGroups": [
-                {
-                    "id": "dO0Z6jb54LZ"
-                }
-            ],
             "managedGroups": [],
             "name": "TB access",
-            "publicAccess": "r-------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -3359,40 +2729,14 @@
                     "value": "Acceso TB"
                 }
             ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "users": []
         },
         {
             "attributeValues": [],
             "code": "TB_AGG_ADMIN",
-            "externalAccess": false,
-            "favorite": false,
             "id": "avefFGBIjq1",
-            "managedByGroups": [
-                {
-                    "id": "pYKORibPZEp"
-                }
-            ],
             "managedGroups": [],
             "name": "TB admin",
-            "publicAccess": "r-------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -3451,40 +2795,14 @@
                     "value": "ТБ бўлими администратори"
                 }
             ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "users": []
         },
         {
             "attributeValues": [],
             "code": "TB_AGG_CAPTURE",
-            "externalAccess": false,
-            "favorite": false,
             "id": "bHLDx9I0XkE",
-            "managedByGroups": [
-                {
-                    "id": "j6tlQ56IAet"
-                }
-            ],
             "managedGroups": [],
             "name": "TB data capture",
-            "publicAccess": "--------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
@@ -3548,41 +2866,18 @@
                     "value": "Captura de dados TB"
                 }
             ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "r-------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "users": []
         },
         {
             "attributeValues": [],
             "code": "TB_AGG_STOCK_DATA_CAPTURE",
-            "externalAccess": false,
-            "favorite": false,
             "id": "hT0GsbPl8fg",
-            "managedByGroups": [],
             "managedGroups": [],
             "name": "TB stock data capture",
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "translations": [
@@ -3592,30 +2887,18 @@
                     "value": "TB Saisie des données stocks"
                 }
             ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [],
             "users": []
         }
     ],
     "userRoles": [
         {
-            "attributeValues": [],
             "authorities": [],
-            "externalAccess": false,
-            "favorite": false,
             "id": "nCNR71ZbTHK",
             "name": "Package User Role",
-            "publicAccess": "rw------",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
                 "public": "rw------",
-                "userGroups": {},
                 "users": {}
             },
             "translations": [
@@ -3624,18 +2907,6 @@
                     "property": "NAME",
                     "value": "Rôle d'utilisateur du package"
                 }
-            ],
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [],
-            "users": [
-                {
-                    "id": "vUeLeQMSwhN"
-                }
             ]
         }
     ],
@@ -3643,21 +2914,11 @@
         {
             "attributeValues": [],
             "dataViewOrganisationUnits": [],
-            "externalAccess": false,
-            "favorite": false,
             "firstName": "package",
             "id": "vUeLeQMSwhN",
-            "name": "package admin",
             "organisationUnits": [],
-            "sharing": {
-                "external": false,
-                "userGroups": {},
-                "users": {}
-            },
             "surname": "admin",
             "teiSearchOrganisationUnits": [],
-            "translations": [],
-            "userAccesses": [],
             "userCredentials": {
                 "attributeValues": [],
                 "catDimensionConstraints": [],
@@ -3674,9 +2935,7 @@
                 "passwordLastUpdated": "2022-08-17T12:56:38.395",
                 "selfRegistered": false,
                 "sharing": {
-                    "external": false,
-                    "userGroups": {},
-                    "users": {}
+                    "external": false
                 },
                 "translations": [],
                 "twoFA": false,
@@ -3703,8 +2962,6 @@
     "visualizations": [
         {
             "aggregationType": "DEFAULT",
-            "attributeDimensions": [],
-            "attributeValues": [],
             "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
@@ -3714,7 +2971,6 @@
             "columnDimensions": [
                 "dx"
             ],
-            "columns": [],
             "completedOnly": false,
             "cumulativeValues": false,
             "dataDimensionItems": [
@@ -3725,18 +2981,13 @@
                     }
                 }
             ],
-            "dataElementDimensions": [],
             "dataElementGroupSetDimensions": [],
             "description": "Monthly number of new episodes of TB, all forms, includes new cases, relapses and cases with unknown treatment history. This indicator would serve as the primary indicator for suggesting a disruption in treatment.",
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
-            "displayTitle": "Notified new and relapse TB cases",
-            "externalAccess": false,
-            "favorite": false,
             "filterDimensions": [
                 "ou"
             ],
-            "filters": [],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
             "fontSize": "NORMAL",
@@ -3761,11 +3012,8 @@
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
             "organisationUnits": [],
-            "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
-            "programIndicatorDimensions": [],
-            "publicAccess": "--------",
             "regression": false,
             "regressionType": "NONE",
             "relativePeriods": {
@@ -3826,7 +3074,6 @@
             ],
             "rowSubTotals": false,
             "rowTotals": false,
-            "rows": [],
             "series": [
                 {
                     "axis": 0,
@@ -3861,7 +3108,6 @@
             "showHierarchy": false,
             "skipRounding": false,
             "sortOrder": 0,
-            "subscribed": false,
             "subscribers": [],
             "title": "Notified new and relapse TB cases",
             "topLimit": 0,
@@ -3883,29 +3129,6 @@
                 }
             ],
             "type": "COLUMN",
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "bHLDx9I0XkE",
-                    "userGroupUid": "bHLDx9I0XkE"
-                },
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "userOrganisationUnit": false,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": true,
@@ -3913,8 +3136,6 @@
         },
         {
             "aggregationType": "DEFAULT",
-            "attributeDimensions": [],
-            "attributeValues": [],
             "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
@@ -3924,7 +3145,6 @@
             "columnDimensions": [
                 "dx"
             ],
-            "columns": [],
             "completedOnly": false,
             "cumulativeValues": false,
             "dataDimensionItems": [
@@ -3941,18 +3161,13 @@
                     }
                 }
             ],
-            "dataElementDimensions": [],
             "dataElementGroupSetDimensions": [],
             "description": "To show the proportion of bacteriologically testing among new episodes of PTB cases (new and relapse) per month",
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
-            "displayTitle": "Bacteriological confirmation coverage",
-            "externalAccess": false,
-            "favorite": false,
             "filterDimensions": [
                 "ou"
             ],
-            "filters": [],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
             "fontSize": "NORMAL",
@@ -3977,11 +3192,8 @@
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
             "organisationUnits": [],
-            "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
-            "programIndicatorDimensions": [],
-            "publicAccess": "--------",
             "regression": false,
             "regressionType": "NONE",
             "relativePeriods": {
@@ -4042,7 +3254,6 @@
             ],
             "rowSubTotals": false,
             "rowTotals": false,
-            "rows": [],
             "series": [
                 {
                     "axis": 0,
@@ -4077,7 +3288,6 @@
             "showHierarchy": false,
             "skipRounding": false,
             "sortOrder": 0,
-            "subscribed": false,
             "subscribers": [],
             "title": "Bacteriological confirmation coverage",
             "topLimit": 0,
@@ -4099,29 +3309,6 @@
                 }
             ],
             "type": "COLUMN",
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "bHLDx9I0XkE",
-                    "userGroupUid": "bHLDx9I0XkE"
-                },
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "userOrganisationUnit": false,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": true,
@@ -4129,8 +3316,6 @@
         },
         {
             "aggregationType": "DEFAULT",
-            "attributeDimensions": [],
-            "attributeValues": [],
             "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
@@ -4140,7 +3325,6 @@
             "columnDimensions": [
                 "dx"
             ],
-            "columns": [],
             "completedOnly": false,
             "cumulativeValues": false,
             "dataDimensionItems": [
@@ -4163,18 +3347,13 @@
                     }
                 }
             ],
-            "dataElementDimensions": [],
             "dataElementGroupSetDimensions": [],
             "description": "To show the proportion of bacteriologically positive cases per month",
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
-            "displayTitle": "Laboratory positivity rate",
-            "externalAccess": false,
-            "favorite": false,
             "filterDimensions": [
                 "ou"
             ],
-            "filters": [],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
             "fontSize": "NORMAL",
@@ -4199,11 +3378,8 @@
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
             "organisationUnits": [],
-            "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
-            "programIndicatorDimensions": [],
-            "publicAccess": "--------",
             "regression": false,
             "regressionType": "NONE",
             "relativePeriods": {
@@ -4264,7 +3440,6 @@
             ],
             "rowSubTotals": false,
             "rowTotals": false,
-            "rows": [],
             "series": [
                 {
                     "axis": 0,
@@ -4308,7 +3483,6 @@
             "showHierarchy": false,
             "skipRounding": false,
             "sortOrder": 0,
-            "subscribed": false,
             "subscribers": [],
             "title": "Laboratory positivity rate",
             "topLimit": 0,
@@ -4330,29 +3504,6 @@
                 }
             ],
             "type": "COLUMN",
-            "user": {
-                "id": "vUeLeQMSwhN",
-                "name": "package admin",
-                "username": "package_admin"
-            },
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "bHLDx9I0XkE",
-                    "userGroupUid": "bHLDx9I0XkE"
-                },
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "userOrganisationUnit": false,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": true,
@@ -4360,8 +3511,6 @@
         },
         {
             "aggregationType": "DEFAULT",
-            "attributeDimensions": [],
-            "attributeValues": [],
             "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
@@ -4371,7 +3520,6 @@
             "columnDimensions": [
                 "dx"
             ],
-            "columns": [],
             "completedOnly": false,
             "cumulativeValues": false,
             "dataDimensionItems": [
@@ -4394,18 +3542,13 @@
                     }
                 }
             ],
-            "dataElementDimensions": [],
             "dataElementGroupSetDimensions": [],
             "description": "To show coverage of TB screening among identified contacts of confirmed TB cases on monthly basis",
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
-            "displayTitle": "Contact tracing activities",
-            "externalAccess": false,
-            "favorite": false,
             "filterDimensions": [
                 "ou"
             ],
-            "filters": [],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
             "fontSize": "NORMAL",
@@ -4430,11 +3573,8 @@
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
             "organisationUnits": [],
-            "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
-            "programIndicatorDimensions": [],
-            "publicAccess": "--------",
             "regression": false,
             "regressionType": "NONE",
             "relativePeriods": {
@@ -4495,7 +3635,6 @@
             ],
             "rowSubTotals": false,
             "rowTotals": false,
-            "rows": [],
             "series": [
                 {
                     "axis": 1,
@@ -4538,7 +3677,6 @@
             "showHierarchy": false,
             "skipRounding": false,
             "sortOrder": 0,
-            "subscribed": false,
             "subscribers": [],
             "title": "Contact tracing activities",
             "topLimit": 0,
@@ -4560,24 +3698,6 @@
                 }
             ],
             "type": "COLUMN",
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "bHLDx9I0XkE",
-                    "userGroupUid": "bHLDx9I0XkE"
-                },
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "userOrganisationUnit": false,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": true,
@@ -4585,8 +3705,6 @@
         },
         {
             "aggregationType": "DEFAULT",
-            "attributeDimensions": [],
-            "attributeValues": [],
             "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
@@ -4596,7 +3714,6 @@
             "columnDimensions": [
                 "dx"
             ],
-            "columns": [],
             "completedOnly": false,
             "cumulativeValues": false,
             "dataDimensionItems": [
@@ -4619,18 +3736,13 @@
                     }
                 }
             ],
-            "dataElementDimensions": [],
             "dataElementGroupSetDimensions": [],
             "description": "To show coverage of TB screening among identified contacts of confirmed TB cases on monthly basis",
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
-            "displayTitle": "Preventive therapy coverage",
-            "externalAccess": false,
-            "favorite": false,
             "filterDimensions": [
                 "ou"
             ],
-            "filters": [],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
             "fontSize": "NORMAL",
@@ -4655,11 +3767,8 @@
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
             "organisationUnits": [],
-            "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
-            "programIndicatorDimensions": [],
-            "publicAccess": "--------",
             "regression": false,
             "regressionType": "NONE",
             "relativePeriods": {
@@ -4720,7 +3829,6 @@
             ],
             "rowSubTotals": false,
             "rowTotals": false,
-            "rows": [],
             "series": [
                 {
                     "axis": 1,
@@ -4763,7 +3871,6 @@
             "showHierarchy": false,
             "skipRounding": false,
             "sortOrder": 0,
-            "subscribed": false,
             "subscribers": [],
             "title": "Preventive therapy coverage",
             "topLimit": 0,
@@ -4785,24 +3892,6 @@
                 }
             ],
             "type": "COLUMN",
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "bHLDx9I0XkE",
-                    "userGroupUid": "bHLDx9I0XkE"
-                },
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "userOrganisationUnit": false,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": true,
@@ -4810,8 +3899,6 @@
         },
         {
             "aggregationType": "DEFAULT",
-            "attributeDimensions": [],
-            "attributeValues": [],
             "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
@@ -4821,7 +3908,6 @@
             "columnDimensions": [
                 "dx"
             ],
-            "columns": [],
             "completedOnly": false,
             "cumulativeValues": false,
             "dataDimensionItems": [
@@ -4838,18 +3924,13 @@
                     }
                 }
             ],
-            "dataElementDimensions": [],
             "dataElementGroupSetDimensions": [],
             "description": "To show the proportion of TB patients currently enrolled in treatment who have received the full allocation of their monthly treatment. This indicator is designed to signal challenges in either supply of or access to treatment",
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
-            "displayTitle": "TB treatment adherence rate",
-            "externalAccess": false,
-            "favorite": false,
             "filterDimensions": [
                 "ou"
             ],
-            "filters": [],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
             "fontSize": "NORMAL",
@@ -4874,11 +3955,8 @@
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
             "organisationUnits": [],
-            "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
-            "programIndicatorDimensions": [],
-            "publicAccess": "--------",
             "regression": false,
             "regressionType": "NONE",
             "relativePeriods": {
@@ -4939,7 +4017,6 @@
             ],
             "rowSubTotals": false,
             "rowTotals": false,
-            "rows": [],
             "series": [
                 {
                     "axis": 0,
@@ -4982,7 +4059,6 @@
             "showHierarchy": false,
             "skipRounding": false,
             "sortOrder": 0,
-            "subscribed": false,
             "subscribers": [],
             "title": "TB treatment adherence rate",
             "topLimit": 0,
@@ -5004,24 +4080,6 @@
                 }
             ],
             "type": "COLUMN",
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "bHLDx9I0XkE",
-                    "userGroupUid": "bHLDx9I0XkE"
-                },
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "userOrganisationUnit": false,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": true,
@@ -5029,8 +4087,6 @@
         },
         {
             "aggregationType": "DEFAULT",
-            "attributeDimensions": [],
-            "attributeValues": [],
             "axes": [],
             "categoryDimensions": [],
             "categoryOptionGroupSetDimensions": [],
@@ -5040,7 +4096,6 @@
             "columnDimensions": [
                 "dx"
             ],
-            "columns": [],
             "completedOnly": false,
             "cumulativeValues": false,
             "dataDimensionItems": [
@@ -5087,18 +4142,13 @@
                     }
                 }
             ],
-            "dataElementDimensions": [],
             "dataElementGroupSetDimensions": [],
             "description": "To show treatment outcomes by quarter with a comparison using the same quarter from the previous year",
             "digitGroupSeparator": "SPACE",
             "displayDensity": "NORMAL",
-            "displayTitle": "TB treatment outcomes",
-            "externalAccess": false,
-            "favorite": false,
             "filterDimensions": [
                 "ou"
             ],
-            "filters": [],
             "fixColumnHeaders": false,
             "fixRowHeaders": false,
             "fontSize": "NORMAL",
@@ -5123,11 +4173,8 @@
             "organisationUnitGroupSetDimensions": [],
             "organisationUnitLevels": [],
             "organisationUnits": [],
-            "parentGraphMap": {},
             "percentStackedValues": false,
             "periods": [],
-            "programIndicatorDimensions": [],
-            "publicAccess": "--------",
             "regression": false,
             "regressionType": "NONE",
             "relativePeriods": {
@@ -5188,7 +4235,6 @@
             ],
             "rowSubTotals": false,
             "rowTotals": false,
-            "rows": [],
             "series": [
                 {
                     "axis": 0,
@@ -5231,7 +4277,6 @@
             "showHierarchy": false,
             "skipRounding": false,
             "sortOrder": 0,
-            "subscribed": false,
             "subscribers": [],
             "title": "TB treatment outcomes",
             "topLimit": 0,
@@ -5283,24 +4328,6 @@
                 }
             ],
             "type": "COLUMN",
-            "userAccesses": [],
-            "userGroupAccesses": [
-                {
-                    "access": "r-------",
-                    "id": "bHLDx9I0XkE",
-                    "userGroupUid": "bHLDx9I0XkE"
-                },
-                {
-                    "access": "r-------",
-                    "id": "Hoe8uDSoNfN",
-                    "userGroupUid": "Hoe8uDSoNfN"
-                },
-                {
-                    "access": "rw------",
-                    "id": "avefFGBIjq1",
-                    "userGroupUid": "avefFGBIjq1"
-                }
-            ],
             "userOrganisationUnit": false,
             "userOrganisationUnitChildren": false,
             "userOrganisationUnitGrandChildren": true,
