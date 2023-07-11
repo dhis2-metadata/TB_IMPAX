@@ -263,16 +263,10 @@
                     "id": "SGecBS4r8c6"
                 },
                 {
-                    "id": "V8rMo1CO6wu"
-                },
-                {
                     "id": "gDHITVkS40y"
                 },
                 {
                     "id": "eTwRLTwwWBU"
-                },
-                {
-                    "id": "W9WcsOCSaxi"
                 },
                 {
                     "id": "DsEBDPYrHwH"
@@ -281,16 +275,7 @@
                     "id": "j9ULA7vIKyD"
                 },
                 {
-                    "id": "mgjekomtDZg"
-                },
-                {
-                    "id": "N15hJn6p4gu"
-                },
-                {
                     "id": "g61YQA3w51A"
-                },
-                {
-                    "id": "zvnc7tww8tL"
                 },
                 {
                     "id": "xHEsY8kfnSM"
@@ -302,22 +287,37 @@
                     "id": "tfJZaa2sVd7"
                 },
                 {
-                    "id": "BES6Aw37iyg"
-                },
-                {
                     "id": "Me9KR0oNWpu"
-                },
-                {
-                    "id": "nAmUvU83Gwj"
                 },
                 {
                     "id": "sFl4LDGq1Ta"
                 },
                 {
-                    "id": "kOWpAxDYNQC"
+                    "id": "aMwaOD71YXZ"
                 },
                 {
-                    "id": "aMwaOD71YXZ"
+                    "id": "V8rMo1CO6wu"
+                },
+                {
+                    "id": "W9WcsOCSaxi"
+                },
+                {
+                    "id": "mgjekomtDZg"
+                },
+                {
+                    "id": "N15hJn6p4gu"
+                },
+                {
+                    "id": "zvnc7tww8tL"
+                },
+                {
+                    "id": "BES6Aw37iyg"
+                },
+                {
+                    "id": "nAmUvU83Gwj"
+                },
+                {
+                    "id": "kOWpAxDYNQC"
                 },
                 {
                     "id": "Z0OxQVvDZ1y"
@@ -327,7 +327,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -367,7 +367,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -565,7 +565,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -617,7 +617,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -669,7 +669,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -721,7 +721,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -843,7 +843,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -894,7 +894,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1001,7 +1001,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1108,7 +1108,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1160,7 +1160,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1212,7 +1212,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1264,7 +1264,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1316,7 +1316,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1368,7 +1368,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1420,7 +1420,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1472,7 +1472,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1579,7 +1579,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1686,7 +1686,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1793,7 +1793,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -1914,7 +1914,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2021,7 +2021,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2073,7 +2073,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2180,7 +2180,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2287,7 +2287,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2394,7 +2394,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2501,7 +2501,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2608,7 +2608,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2660,7 +2660,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2699,13 +2699,15 @@
     "organisationUnitGroupSets": [],
     "organisationUnitGroups": [],
     "package": {
-        "DHIS2Build": "accc6ee",
-        "DHIS2Version": "2.39.1.1",
+        "DHIS2Build": "99a70d2",
+        "DHIS2Version": "2.39.2.1",
         "code": "TB_IMPAX",
         "description": "TB - COVID-19 Impact Assessment (dashboard)",
-        "lastUpdated": "20230307T162146",
+        "healthAreaCode": "TB",
+        "healthAreaName": "Tuberculosis",
+        "lastUpdated": "20230628T175639",
         "locale": "en",
-        "name": "TB_IMPAX_DSH_DHIS2.39.1.1-en",
+        "name": "TB_IMPAX_DSH_DHIS2.39.2.1-en",
         "type": "DSH",
         "version": ""
     },
@@ -2848,22 +2850,22 @@
         },
         {
             "attributeValues": [],
-            "code": "TB_AGG_CAPTURE",
+            "code": "TB_AGG_DATA_CAPTURE",
             "id": "bHLDx9I0XkE",
             "managedGroups": [],
             "name": "TB data capture",
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "--------",
+                "public": "r-------",
                 "userGroups": {
                     "Hoe8uDSoNfN": {
-                        "access": "rw------",
+                        "access": "r-------",
                         "displayName": "TB access",
                         "id": "Hoe8uDSoNfN"
                     },
                     "avefFGBIjq1": {
-                        "access": "r-------",
+                        "access": "rw------",
                         "displayName": "TB admin",
                         "id": "avefFGBIjq1"
                     }
@@ -2928,7 +2930,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -2950,7 +2952,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "rw------",
+                "public": "r-------",
                 "userGroups": {},
                 "users": {}
             },
@@ -3117,7 +3119,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "--------",
+                "public": "r-------",
                 "userGroups": {
                     "Hoe8uDSoNfN": {
                         "access": "r-------",
@@ -3301,7 +3303,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "--------",
+                "public": "r-------",
                 "userGroups": {
                     "Hoe8uDSoNfN": {
                         "access": "r-------",
@@ -3500,7 +3502,7 @@
             "sharing": {
                 "external": false,
                 "owner": "vUeLeQMSwhN",
-                "public": "--------",
+                "public": "r-------",
                 "userGroups": {
                     "Hoe8uDSoNfN": {
                         "access": "r-------",
@@ -3698,7 +3700,7 @@
             },
             "sharing": {
                 "external": false,
-                "public": "--------",
+                "public": "r-------",
                 "userGroups": {
                     "Hoe8uDSoNfN": {
                         "access": "r-------",
@@ -3896,7 +3898,7 @@
             },
             "sharing": {
                 "external": false,
-                "public": "--------",
+                "public": "r-------",
                 "userGroups": {
                     "Hoe8uDSoNfN": {
                         "access": "r-------",
@@ -4088,7 +4090,7 @@
             },
             "sharing": {
                 "external": false,
-                "public": "--------",
+                "public": "r-------",
                 "userGroups": {
                     "Hoe8uDSoNfN": {
                         "access": "r-------",
@@ -4310,7 +4312,7 @@
             },
             "sharing": {
                 "external": false,
-                "public": "--------",
+                "public": "r-------",
                 "userGroups": {
                     "Hoe8uDSoNfN": {
                         "access": "r-------",
